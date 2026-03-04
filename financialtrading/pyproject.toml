@@ -1,0 +1,33 @@
+[project]
+name = "financialtrading"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+authors = [{ name = "Brecheisen", email = "r.brecheisen@maastrichtuniversity.nl" }]
+
+dependencies = [
+    "pandas>=2.3.2",
+    "pendulum>=3.1.0",
+    "matplotlib",
+    "mplfinance",
+    "flask",
+]
+
+[project.scripts]
+ftrade = "financialtrading.app:main"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.4.1",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
