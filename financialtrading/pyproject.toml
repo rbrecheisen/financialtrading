@@ -12,6 +12,7 @@ dependencies = [
     "matplotlib",
     "mplfinance",
     "flask",
+    "yfinance",
 ]
 
 [project.scripts]

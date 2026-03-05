@@ -60,6 +60,15 @@ def exchanges():
     return exchange_list
 
 
+@app.get('/iwda.xams')
+def iwda_xams():
+    uic = 50629
+    asset_type = 'Etf'
+    session = requests.Session()
+    t = oauth_state['access_token']
+    session.headers.update({"Authorization": f"Bearer {t}"})
+
+
 @app.get('/login')
 def login():
     params = {
