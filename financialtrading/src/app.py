@@ -29,6 +29,7 @@ def basic_auth_header(client_id: str, client_secret: str) -> str:
 APP_KEY, APP_SECRET = get_app_key_and_secret()
 AUTH_URL = 'https://sim.logonvalidation.net/authorize'
 TOKEN_URL = 'https://sim.logonvalidation.net/token'
+BASE_URL = 'https://gateway.saxobank.com/sim/openapi'
 HOST = 'localhost'
 PORT = 8000
 REDIRECT_URI = f'http://{HOST}:{PORT}/callback'
@@ -37,6 +38,18 @@ REDIRECT_URI = f'http://{HOST}:{PORT}/callback'
 @app.get('/')
 def index():
     return '<a href="/login">Login with Saxo</a>'
+
+
+@app.get('/exchanges')
+def exchanges():
+    url = f'{BASE_URL}/ref/v1/exchanges'
+    t = oauth_state['access_token']
+    params = {'$top': 500, '$skip': 0}
+    headers = {'Authorization': f'Bearer {t}'}
+    r = requests.get(url, params=params, headers=headers, timeout=30)
+    r.raise_for_status()
+    data = r.json()['Data']
+    return data
 
 
 @app.get('/login')
@@ -78,7 +91,7 @@ def oauth_callback():
     tok = r.json()
     oauth_state['access_token'] = tok["access_token"]
     oauth_state['refresh_token'] = tok.get("refresh_token")
-    return oauth_state, 201
+    return redirect('/exchanges')
 
 
 def main():
