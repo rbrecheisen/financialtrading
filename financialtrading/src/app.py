@@ -1,4 +1,5 @@
 import base64
+import json
 import requests
 from flask import Flask, redirect, request
 from urllib.parse import urlencode
@@ -49,7 +50,14 @@ def exchanges():
     r = requests.get(url, params=params, headers=headers, timeout=30)
     r.raise_for_status()
     data = r.json()['Data']
-    return data
+    exchange_list = {}
+    for item in data:
+        exchange_list[item['Name']] = {
+            'ExchangeId': item['ExchangeId'],
+        }
+    with open('exchanges.json', 'w') as f:
+        json.dump(exchange_list, f, indent=4)
+    return exchange_list
 
 
 @app.get('/login')

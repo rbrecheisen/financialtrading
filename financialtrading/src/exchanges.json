@@ -1,0 +1,797 @@
+{
+    "NYSE American": {
+        "ExchangeId": "AMEX"
+    },
+    "NASDAQ OMX Copenhagen": {
+        "ExchangeId": "CSE"
+    },
+    "Deutsche B\u00f6rse (XETRA)": {
+        "ExchangeId": "FSE"
+    },
+    "NASDAQ OMX Helsinki": {
+        "ExchangeId": "HSE"
+    },
+    "London Stock Exchange (Indices)": {
+        "ExchangeId": "LSE"
+    },
+    "Borsa Italiana/Milan Stock Exchange": {
+        "ExchangeId": "MIL"
+    },
+    "NASDAQ": {
+        "ExchangeId": "NASDAQ"
+    },
+    "New York Stock Exchange": {
+        "ExchangeId": "NYSE"
+    },
+    "Oslo B\u00f8rs/Oslo Stock Exchange": {
+        "ExchangeId": "OSE"
+    },
+    "Euronext Paris": {
+        "ExchangeId": "PAR"
+    },
+    "BME Spanish Exchanges": {
+        "ExchangeId": "SIBE"
+    },
+    "NASDAQ OMX Stockholm": {
+        "ExchangeId": "SSE"
+    },
+    "Vancouver Stock Exchange": {
+        "ExchangeId": "VAN"
+    },
+    "Chicago Mercantile Exchange": {
+        "ExchangeId": "CME"
+    },
+    "Chicago Board of Trade": {
+        "ExchangeId": "CBOT"
+    },
+    "Commodity Exchange (COMEX)": {
+        "ExchangeId": "COMEX"
+    },
+    "New York Board of Trade": {
+        "ExchangeId": "NYBOT"
+    },
+    "New York Mercantile Exchange": {
+        "ExchangeId": "NYMEX"
+    },
+    "London International Financial Futures Exchange": {
+        "ExchangeId": "LIFFE"
+    },
+    "New York Cotton Exchange": {
+        "ExchangeId": "NYCE"
+    },
+    "Paris Financial Futures Exchange": {
+        "ExchangeId": "MATIF"
+    },
+    "Coffee, Sugar and Cocoa Exchange": {
+        "ExchangeId": "CSCE"
+    },
+    "International Monetary Market (on CME)": {
+        "ExchangeId": "IMM"
+    },
+    "London Metal Exchange": {
+        "ExchangeId": "LME"
+    },
+    "Singapore International Monetary Exchange": {
+        "ExchangeId": "SIMEX"
+    },
+    "Deutsche Terminborse": {
+        "ExchangeId": "DTB"
+    },
+    "Toronto Stock Exchange": {
+        "ExchangeId": "TSE"
+    },
+    "Intercontinental Exchange": {
+        "ExchangeId": "IPE"
+    },
+    "Philadelphia Stock Exchange": {
+        "ExchangeId": "PHLX"
+    },
+    "Euronext Amsterdam": {
+        "ExchangeId": "AMS"
+    },
+    "NASDAQ (Small cap)": {
+        "ExchangeId": "NSC"
+    },
+    "OTC Bulletin Board": {
+        "ExchangeId": "OTCBB"
+    },
+    "SIX Swiss Exchange": {
+        "ExchangeId": "VX"
+    },
+    "Osaka Securities Exchange": {
+        "ExchangeId": "OSX"
+    },
+    "Hong Kong Exchanges": {
+        "ExchangeId": "HKEX"
+    },
+    "Singapore Exchange": {
+        "ExchangeId": "SGX-ST"
+    },
+    "Thailand Stock Exchange": {
+        "ExchangeId": "SET"
+    },
+    "FTSE International": {
+        "ExchangeId": "FSI"
+    },
+    "Jakarta Stock Exchange": {
+        "ExchangeId": "JSX"
+    },
+    "Korea Stock Exchange": {
+        "ExchangeId": "KSE"
+    },
+    "XETRA": {
+        "ExchangeId": "XETRA"
+    },
+    "Spanish Official Exchange": {
+        "ExchangeId": "MEFF"
+    },
+    "CBOE Futures Exchange": {
+        "ExchangeId": "CBOE"
+    },
+    "Pacific Stock Exchange ( NYSE Arca )": {
+        "ExchangeId": "PSE"
+    },
+    "New Zealand Stock Exchange": {
+        "ExchangeId": "NZSE"
+    },
+    "Australian Securities Exchange": {
+        "ExchangeId": "ASX"
+    },
+    "Tokyo Stock Exchange": {
+        "ExchangeId": "TYO"
+    },
+    "Euronext Lisbon": {
+        "ExchangeId": "LISB"
+    },
+    "GLOBEX": {
+        "ExchangeId": "GLOBEX"
+    },
+    "Alliance/CBOT/Eurex": {
+        "ExchangeId": "A/C/E"
+    },
+    "Eurex": {
+        "ExchangeId": "EUREX"
+    },
+    "London Stock Exchange": {
+        "ExchangeId": "LSE_SETS"
+    },
+    "London Stock Exchange (SETSqx)": {
+        "ExchangeId": "LSE_SEAQ"
+    },
+    "Electronic Chicago Board of Trade": {
+        "ExchangeId": "ECBOT"
+    },
+    "Sydney Futures Exchange Corp. Ltd.": {
+        "ExchangeId": "SFE"
+    },
+    "Generic Bonds exchange": {
+        "ExchangeId": "BONDS"
+    },
+    "Euronext Brussels": {
+        "ExchangeId": "BRU"
+    },
+    "Luxembourg Stock Exchange": {
+        "ExchangeId": "LUX"
+    },
+    "Tokyo International Financial Futures Exchange Inc": {
+        "ExchangeId": "TIFFE"
+    },
+    "Tokyo Stock Exchange (Night Sesson)": {
+        "ExchangeId": "TYOn"
+    },
+    "Singapore Exchange Derivatives Trading Ltd.": {
+        "ExchangeId": "SGX-DT"
+    },
+    "Bourse de Montreal Inc.": {
+        "ExchangeId": "MON"
+    },
+    "Euronext Dublin": {
+        "ExchangeId": "ISE"
+    },
+    "Wiener B\u00f6rse/Vienna Stock Exchange": {
+        "ExchangeId": "VIE"
+    },
+    "Borsa Italiana SpA/Italian Exchange": {
+        "ExchangeId": "IDEM"
+    },
+    "Austrian Futures and Options Exchange (OETOB)": {
+        "ExchangeId": "OTB"
+    },
+    "Athens Exchange": {
+        "ExchangeId": "AT"
+    },
+    "NASDAQ OMX Copenhagen (Investment trusts)": {
+        "ExchangeId": "CSE_INV"
+    },
+    "London Stock Exchange (IOB)": {
+        "ExchangeId": "LSE_INTL"
+    },
+    "ICE Futures Europe - ICE": {
+        "ExchangeId": "ICE"
+    },
+    "Warsaw Stock Exchange": {
+        "ExchangeId": "WSE"
+    },
+    "OTC Markets Group (Pink Sheets)": {
+        "ExchangeId": "OOTC"
+    },
+    "NASDAQ OMX Copenhagen (First North)": {
+        "ExchangeId": "CSE_FN-DK"
+    },
+    "NASDAQ OMX Stockholm (First North)": {
+        "ExchangeId": "SSE_FN-SE"
+    },
+    "Euronext Equity & Index Derivatives - AMS": {
+        "ExchangeId": "EUR_AMS2"
+    },
+    "Euronext Interest Rate Derivatives - LIFFE": {
+        "ExchangeId": "EUR_LIF3"
+    },
+    "Euronext Commodities Derivatives - PAR": {
+        "ExchangeId": "EUR_PAR1"
+    },
+    "Euronext Commodities Derivatives - LIFFE": {
+        "ExchangeId": "EUR_LIF1"
+    },
+    "Euronext Equity & Index Derivatives - LIFFE": {
+        "ExchangeId": "EUR_LIF2"
+    },
+    "Euronext Equity & Index Derivatives - PAR": {
+        "ExchangeId": "EUR_PAR2"
+    },
+    "Johannesburg Stock Exchange": {
+        "ExchangeId": "JSE"
+    },
+    "ICE Futures U.S.  \u2013 NYBOT": {
+        "ExchangeId": "ICE_NYBOT"
+    },
+    "New York Stock Exchange (ARCA)": {
+        "ExchangeId": "NYSE_ARCA"
+    },
+    "Borsa Italiana \u2013 Standard": {
+        "ExchangeId": "MIL2"
+    },
+    "London Clearing House": {
+        "ExchangeId": "LCH"
+    },
+    "NOS Clearing ASA": {
+        "ExchangeId": "NOS"
+    },
+    "TSX Venture Exchange": {
+        "ExchangeId": "TSX"
+    },
+    "BM & F Bovespa": {
+        "ExchangeId": "BVMF"
+    },
+    "Dummy Swiss": {
+        "ExchangeId": "SWISS"
+    },
+    "ICE Futures Canada": {
+        "ExchangeId": "ICE_CANADA"
+    },
+    "Athens Stock Exchange Medium & Small Cap": {
+        "ExchangeId": "AT_MSC"
+    },
+    "Euronext Amsterdam Funds": {
+        "ExchangeId": "AMS_FUNDS"
+    },
+    "Istanbul Stock Exchange": {
+        "ExchangeId": "IST"
+    },
+    "Budapest Stock Exchange": {
+        "ExchangeId": "BUD"
+    },
+    "US Equity Options": {
+        "ExchangeId": "OCC"
+    },
+    "Prague Stock Exchange": {
+        "ExchangeId": "PRA"
+    },
+    "European Energy Exchange - Agriculture": {
+        "ExchangeId": "EEX"
+    },
+    "Borsa Italiana - Test": {
+        "ExchangeId": "MIL3"
+    },
+    "Johannesburg Stock Exchange - TEST": {
+        "ExchangeId": "JSE1"
+    },
+    "Johannesburg Stock Exchange Onshore": {
+        "ExchangeId": "JON"
+    },
+    "Moscow Exchange": {
+        "ExchangeId": "MICEX"
+    },
+    "CME Clearing Europe": {
+        "ExchangeId": "CMECE"
+    },
+    "Kansas City Board of Trade": {
+        "ExchangeId": "KCBT"
+    },
+    "Deutsche Borse (Frankfurt Floor)": {
+        "ExchangeId": "FFT"
+    },
+    "Fr\u00f8s Sparekassse": {
+        "ExchangeId": "FSK"
+    },
+    "NASDAQ OMX Copenhagen Bonds": {
+        "ExchangeId": "CSE_BONDS"
+    },
+    "Deutsche B\u00f6rse (XETRA Stars)": {
+        "ExchangeId": "XETR_STARS"
+    },
+    "Deutsche B\u00f6rse (Indices & ETFs)": {
+        "ExchangeId": "XETR_ETF"
+    },
+    "Osaka Exchange Inc.": {
+        "ExchangeId": "OSA"
+    },
+    "ICE Futures Europe \u2013 Financials": {
+        "ExchangeId": "ICE_LIF"
+    },
+    "Options Price Reporting Authority": {
+        "ExchangeId": "OPRA"
+    },
+    "Klim Sparekasse": {
+        "ExchangeId": "KLSP"
+    },
+    "Chicago Board Options Exchange - Stock Options": {
+        "ExchangeId": "CBOE_SO"
+    },
+    "Dummy Exchange - No Instruments Allowed!": {
+        "ExchangeId": "DMY"
+    },
+    "BankNordik Greenalnd": {
+        "ExchangeId": "BNG"
+    },
+    "ICE Futures Europe - Soft Commodities": {
+        "ExchangeId": "ICE_SOFT"
+    },
+    "JSE Debt Market": {
+        "ExchangeId": "JSE_BONDS"
+    },
+    "S\u00f8nderh\u00e5-H\u00f8rsted Sparekasse": {
+        "ExchangeId": "SHSK"
+    },
+    "Equiduct Germany": {
+        "ExchangeId": "EQUIDUCT"
+    },
+    "CFE - CBOE Futures Exchange": {
+        "ExchangeId": "CFE"
+    },
+    "Euronext Growth Oslo": {
+        "ExchangeId": "EGO"
+    },
+    "Russel Indices": {
+        "ExchangeId": "RUSSELL"
+    },
+    "Bats Europe DE and AT": {
+        "ExchangeId": "BATS"
+    },
+    "Middelfart Sparekasse": {
+        "ExchangeId": "MFSK"
+    },
+    "Bats Europe ES IT CH": {
+        "ExchangeId": "BATSS"
+    },
+    "Bats Europe SE FI DK NO": {
+        "ExchangeId": "BATSN"
+    },
+    "JSE Commodity Derivatives Market": {
+        "ExchangeId": "JSE_COM"
+    },
+    "Equiduct Italy": {
+        "ExchangeId": "EQUIDUCTI"
+    },
+    "Equiduct Euronext": {
+        "ExchangeId": "EQUIDUCTE"
+    },
+    "Nasdaq Copenhagen Offline (Inv. trusts offline)": {
+        "ExchangeId": "OCSE_INV"
+    },
+    "Equiduct United Kingdom": {
+        "ExchangeId": "EQUIDUCTU"
+    },
+    "Bats Europe FR NL BE PT": {
+        "ExchangeId": "BATSE"
+    },
+    "Sparekassen Danmark": {
+        "ExchangeId": "SKDA"
+    },
+    "Bats Europe UK IE": {
+        "ExchangeId": "BATSU"
+    },
+    "Nasdaq TotalView - Nasdaq listings": {
+        "ExchangeId": "TOTALVIEW"
+    },
+    "EUREX_TEST_FEEDS": {
+        "ExchangeId": "TEST_FEEDS"
+    },
+    "Equiduct Spain": {
+        "ExchangeId": "EQUIDUCTS"
+    },
+    "NASDAQ TotalView NASDAQ listings": {
+        "ExchangeId": "TVIEWNASD"
+    },
+    "NASDAQ TotalView NYSE and NYSE MKT listings": {
+        "ExchangeId": "TVIEWNYSE"
+    },
+    "NASDAQ OMX Copenhagen (ETNs)": {
+        "ExchangeId": "CSE_ETN"
+    },
+    "S&P and Dow Jones Indices": {
+        "ExchangeId": "SP_IND"
+    },
+    "PZEM Energy B.V.": {
+        "ExchangeId": "DELTAENERGY"
+    },
+    "Deutsche B\u00f6rse ETFs & ETPs": {
+        "ExchangeId": "XETR_ETP"
+    },
+    "Hong Kong Test Exchange": {
+        "ExchangeId": "HKTEST"
+    },
+    "Bats US": {
+        "ExchangeId": "BATS_US"
+    },
+    "London Stock Exchange (ETFs)": {
+        "ExchangeId": "LSE_ETF"
+    },
+    "European Energy Exchange - Energy": {
+        "ExchangeId": "EEX_ENERGY"
+    },
+    "Shanghai-Hong Kong Stock Connect (ETF)": {
+        "ExchangeId": "SHANGHAI_SC_ETF"
+    },
+    "STOXX Indices": {
+        "ExchangeId": "STOXX"
+    },
+    "Bonds CEEMEA Hard Currency": {
+        "ExchangeId": "CMEA_HARD"
+    },
+    "Bonds CEEMEA Local Currency": {
+        "ExchangeId": "CMEA_LOCAL"
+    },
+    "Bonds US Government": {
+        "ExchangeId": "US_GOV"
+    },
+    "Bonds Europe Government": {
+        "ExchangeId": "EU_GOV"
+    },
+    "Bonds APAC Hard Currency": {
+        "ExchangeId": "APAC_HARD"
+    },
+    "FR Titre Non-Cot\u00e9s": {
+        "ExchangeId": "TNC"
+    },
+    "Bonds APAC Local Currency": {
+        "ExchangeId": "APAC_LOCAL"
+    },
+    "Bonds LATAM Hard Currency": {
+        "ExchangeId": "LATAM_HARD"
+    },
+    "Bonds Europe Corporate - High Yield": {
+        "ExchangeId": "EU_CP_HY"
+    },
+    "Bonds Europe Corporate - Investment Grade": {
+        "ExchangeId": "EU_CP_IG"
+    },
+    "Bonds Europe Corporate - Mortgage": {
+        "ExchangeId": "EU_CP_MG"
+    },
+    "Bonds US Corporate - Investment Grade": {
+        "ExchangeId": "US_CP_IG"
+    },
+    "Euronext Paris - Multi Currency Trading (ETP)": {
+        "ExchangeId": "PAR_MC_ETF"
+    },
+    "Bonds US Corporate - High Yield": {
+        "ExchangeId": "US_CP_HY"
+    },
+    "Bonds Europe Government Banca IMI": {
+        "ExchangeId": "EU_GOV_IM"
+    },
+    "Bonds Europe Corporate - High Yield - Banca IMI": {
+        "ExchangeId": "EU_CPHY_IM"
+    },
+    "Bonds Europe Corporate - Inv. Grade - Banca IMI": {
+        "ExchangeId": "EU_CPIG_IM"
+    },
+    "SIX Swiss Exchange (ETFs)": {
+        "ExchangeId": "SWX_ETF"
+    },
+    "DUMMY - SIX Swiss Exchange ETFs on Bonds": {
+        "ExchangeId": "SXW_BND_ETF"
+    },
+    "SIX Swiss Exchange (Rights)": {
+        "ExchangeId": "SWX_RTS"
+    },
+    "SIX Swiss Exchange ETFs on Bonds of the Swiss Conf": {
+        "ExchangeId": "SWX_BND_ETF"
+    },
+    "Nasdaq Commodities": {
+        "ExchangeId": "NASDAQ_COM"
+    },
+    "Mutual Funds": {
+        "ExchangeId": "MTU"
+    },
+    "Bonds LATAM USD Currency": {
+        "ExchangeId": "LATAM_USD"
+    },
+    "Bats BZX": {
+        "ExchangeId": "BATS_BZX"
+    },
+    "CME Crypto Indices": {
+        "ExchangeId": "CMEBITCOIN"
+    },
+    "Bats Indices": {
+        "ExchangeId": "BATS_IND"
+    },
+    "Singapore Exchange Derivatives (Commodities)": {
+        "ExchangeId": "SGX-COM"
+    },
+    "Shanghai-Hong Kong Stock Connect": {
+        "ExchangeId": "SHANGHAI_SC"
+    },
+    "Shenzhen-Hong Kong Stock Connect": {
+        "ExchangeId": "SHENZHEN_SC"
+    },
+    "Chinext of Shenzhen Stock Exchange": {
+        "ExchangeId": "CHINEXT"
+    },
+    "Dow Jones Indices": {
+        "ExchangeId": "DJIA"
+    },
+    "S&P Indices": {
+        "ExchangeId": "SP500"
+    },
+    "Saxo Bank IOI": {
+        "ExchangeId": "SBIOI"
+    },
+    "Bonds Floating Rate Notes": {
+        "ExchangeId": "BONDS_FRN"
+    },
+    "Bonds Floating Rate Notes Offline": {
+        "ExchangeId": "FRN_OFF"
+    },
+    "China Bond Connect": {
+        "ExchangeId": "CHINABONDS"
+    },
+    "Bonds US Floating Rate Notes": {
+        "ExchangeId": "US_FRN"
+    },
+    "BME Spanish Exchanges (ETFs)": {
+        "ExchangeId": "SIBE_ETF"
+    },
+    "IEX": {
+        "ExchangeId": "IEX"
+    },
+    "Bonds APAC Dual Currency": {
+        "ExchangeId": "APAC_DUAL"
+    },
+    "Bonds Dual Europe Corporate - High Yield": {
+        "ExchangeId": "EU_DUAL"
+    },
+    "BG Online Bonds": {
+        "ExchangeId": "BG_BONDS"
+    },
+    "Morningstar Open Indexes": {
+        "ExchangeId": "MOI"
+    },
+    "NASDAQ OMX Helsinki (First North)": {
+        "ExchangeId": "HSE_FN"
+    },
+    "Morningstar indices": {
+        "ExchangeId": "MS_IND"
+    },
+    "Bursa Malaysia Exchange": {
+        "ExchangeId": "MALAY"
+    },
+    "Euronext Growth Milan": {
+        "ExchangeId": "MIL_AIM"
+    },
+    "Nasdaq Basic Nasdaq listings": {
+        "ExchangeId": "BASICNASD"
+    },
+    "Nasdaq Basic NYSE listings": {
+        "ExchangeId": "BASICNYSE"
+    },
+    "London Stock Exchange \u2013 Shanghai Connect": {
+        "ExchangeId": "LSE_SSEC"
+    },
+    "DimSum BONDS": {
+        "ExchangeId": "DIMSUM"
+    },
+    "EUROTLX Bonds": {
+        "ExchangeId": "EUROTLX"
+    },
+    "Borsa Italiana MOT Bonds": {
+        "ExchangeId": "MOT"
+    },
+    "Refinitiv OTC Data": {
+        "ExchangeId": "REFOTC"
+    },
+    "VIRTU Indices": {
+        "ExchangeId": "VIRTU"
+    },
+    "Euronext Equity & Index Derivatives - BRU": {
+        "ExchangeId": "EUR_BRU2"
+    },
+    "Euronext Growth Brussels": {
+        "ExchangeId": "EGB"
+    },
+    "Euronext Growth Dublin": {
+        "ExchangeId": "EGD"
+    },
+    "Euronext Growth Lisbon": {
+        "ExchangeId": "EGL"
+    },
+    "Euronext Growth Paris": {
+        "ExchangeId": "EGP"
+    },
+    "ICAP OTC Data": {
+        "ExchangeId": "ICAPOTC"
+    },
+    "Euronext Access Paris": {
+        "ExchangeId": "PAR_ACCESS"
+    },
+    "Secured Overnight Financing Rate (SOFR)": {
+        "ExchangeId": "SOFR"
+    },
+    "Euronext Paris Bonds": {
+        "ExchangeId": "PAR_BONDS"
+    },
+    "Euronext Lisbon Bonds": {
+        "ExchangeId": "LISB_BONDS"
+    },
+    "Euronext Brussels Bonds": {
+        "ExchangeId": "BRU_BONDS"
+    },
+    "Euronext Amsterdam Bonds": {
+        "ExchangeId": "AMS_BONDS"
+    },
+    "Spotlight Stock Market": {
+        "ExchangeId": "SAT"
+    },
+    "Luxembourg Bonds": {
+        "ExchangeId": "LUX_BONDS"
+    },
+    "Luxembourg Bonds Euro MTF": {
+        "ExchangeId": "LUX_MTF"
+    },
+    "Mutual Funds - Trading": {
+        "ExchangeId": "MTU_S"
+    },
+    "Tradition OTC Data": {
+        "ExchangeId": "TRADIT_OTC"
+    },
+    "SAXO Price feed \u2013 synthetic": {
+        "ExchangeId": "SAXO_CONS"
+    },
+    "BG SAXO Price feed \u2013 synthetic": {
+        "ExchangeId": "BGSAXO_CONS"
+    },
+    "Bonds Prioritized Saxo ICE MOT ETLX BG": {
+        "ExchangeId": "BO_PRIO_01"
+    },
+    "Bonds Prioritized Saxo ICE LUX Saxo": {
+        "ExchangeId": "BO_PRIO_02"
+    },
+    "Nasdaq Basic Arca and Amex listings": {
+        "ExchangeId": "BASICARCAM"
+    },
+    "Euronext Access Brussels": {
+        "ExchangeId": "BRU_ACCESS"
+    },
+    "Euronext Access Lisbon": {
+        "ExchangeId": "LIS_ACCESS"
+    },
+    "Euronext Funds Service": {
+        "ExchangeId": "ENXT_FUNDS"
+    },
+    "CATS": {
+        "ExchangeId": "CATS"
+    },
+    "Sparekassen Thy": {
+        "ExchangeId": "THY"
+    },
+    "Bonds Consolidated Feed": {
+        "ExchangeId": "BONDS_CONS"
+    },
+    "CATS_SAXO": {
+        "ExchangeId": "CATS_SAXO"
+    },
+    "ICE ENDEX Futures": {
+        "ExchangeId": "ICE_ENDEX"
+    },
+    "Borsa Italiana EUROMOT Bonds": {
+        "ExchangeId": "EUROMOT"
+    },
+    "OTC Markets Group (Pink Sheets) \u2013 No Information": {
+        "ExchangeId": "OOTC_NI"
+    },
+    "OTC Structured Products": {
+        "ExchangeId": "OTC_SP_BONDS"
+    },
+    "OTC Structured Products - Certificates": {
+        "ExchangeId": "OTC_SP_CER"
+    },
+    "EUROTLX International": {
+        "ExchangeId": "EUROTLX_INT"
+    },
+    "Euronext Paris Bonds-SP": {
+        "ExchangeId": "PAR_SP"
+    },
+    "Euronext Amsterdam Bonds-SP": {
+        "ExchangeId": "AMS_SP"
+    },
+    "Russia Exchange Data Exclusions": {
+        "ExchangeId": "RU_EXCLUDE"
+    },
+    "Mutual Funds \u2013 Offline": {
+        "ExchangeId": "MTU_NOTM"
+    },
+    "Euronext Equity & Index Derivatives - OSL": {
+        "ExchangeId": "EUR_OSL"
+    },
+    "Non Listed VP Instruments": {
+        "ExchangeId": "NOTLISTVP"
+    },
+    "Borbjerg Sparekasse": {
+        "ExchangeId": "BOSK"
+    },
+    "Sparekassen Balling": {
+        "ExchangeId": "SKB"
+    },
+    "Rise Sparekasse": {
+        "ExchangeId": "RISP"
+    },
+    "Sparekassen for N\u00f8rre Nebel og Omegn": {
+        "ExchangeId": "SKNN"
+    },
+    "Sparekassen Bredebro": {
+        "ExchangeId": "SKBR"
+    },
+    "Broager Sparekasse": {
+        "ExchangeId": "BRSK"
+    },
+    "Danish Covered Bonds": {
+        "ExchangeId": "DK_MORTG"
+    },
+    "Non Listed Physical DKK Instruments": {
+        "ExchangeId": "NOTLISTPHY"
+    },
+    "Johannesburg Stock Exchange - Extended": {
+        "ExchangeId": "JSE_EXT"
+    },
+    "JSE Equity Derivatives Market": {
+        "ExchangeId": "JSE_EQ"
+    },
+    "JSE Currency Derivatives Market": {
+        "ExchangeId": "JSE_FX"
+    },
+    "Mutual Funds - Distribution": {
+        "ExchangeId": "MTU_T"
+    },
+    "Mutual Funds - On Demand": {
+        "ExchangeId": "MTU_D"
+    },
+    "Euronext Equity & Index Derivatives - LISB": {
+        "ExchangeId": "EUR_LISB"
+    },
+    "Nordic Growth Market": {
+        "ExchangeId": "NGM"
+    },
+    "Borsa Italiana/Milan Stock Exchange (ETF)": {
+        "ExchangeId": "MIL_ETF"
+    },
+    "Euronext Amsterdam - Multi Currency Trading (ETP)": {
+        "ExchangeId": "AMS_MC_ETF"
+    },
+    "MorningStar Category Indices": {
+        "ExchangeId": "MS_CAT"
+    },
+    "NOT IN USE": {
+        "ExchangeId": "SHENZEN_SC_ETF"
+    }
+}
