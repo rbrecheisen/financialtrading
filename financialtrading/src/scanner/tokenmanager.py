@@ -4,6 +4,7 @@ import requests
 from pathlib import Path
 
 
+# https://chatgpt.com/g/g-p-69a2ce92a63481919c094ce483a1f745-mechanical-trading/c/69a95942-35f8-838c-8fc3-c6c1458da911
 class TokenManager:
     """
     Allows retrieval (through OAuth 2.0) of access and refresh tokens. The 
