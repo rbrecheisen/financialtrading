@@ -100,34 +100,46 @@ def draw_charts(fig, axes, ticker, wk_df, dy_df, weekly_start, daily_start, ref_
         ),
     ]
 
+    my_style = mpf.make_mpf_style(
+        base_mpf_style='yahoo',
+        gridaxis='horizontal',   # only horizontal grid lines
+        gridstyle=':',
+    )
+
     mpf.plot(
         wk_df,
         type="candle",
-        style="yahoo",
+        style=my_style,
         ax=axes[0],
         addplot=wk_ema,
         volume=False,
         datetime_format="%Y-%m",
         xrotation=0,
     )
-    axes[0].set_title(
-        f"{ticker} - Weekly ({weekly_start.date()} to {ref_date.date()})"
-    )
+    axes[0].grid(True, axis='y', linestyle=':', linewidth=0.6, alpha=0.6)   
+    axes[0].set_title(f"{ticker} - Weekly ({weekly_start.date()} to {ref_date.date()})")
     axes[0].legend(loc="upper left")
+
+    week_starts = dy_df.groupby(dy_df.index.to_period('W-MON')).apply(lambda x: x.index.min()).tolist()
 
     mpf.plot(
         dy_df,
         type="candle",
-        style="yahoo",
+        style=my_style,
         ax=axes[1],
         addplot=dy_ema,
         volume=False,
         datetime_format="%Y-%m-%d",
         xrotation=15,
+        vlines=dict(
+            vlines=week_starts,
+            linewidths=0.6,
+            linestyle=':',
+            alpha=0.4,
+        ),
     )
-    axes[1].set_title(
-        f"{ticker} - Daily ({daily_start.date()} to {ref_date.date()})"
-    )
+    axes[1].grid(True, axis='y', linestyle=':', linewidth=0.6, alpha=0.6)
+    axes[1].set_title(f"{ticker} - Daily ({daily_start.date()} to {ref_date.date()})")
     axes[1].legend(loc="upper left")
 
     fig.tight_layout()
