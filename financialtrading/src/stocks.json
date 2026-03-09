@@ -1,0 +1,802 @@
+[
+    {
+        "Symbol": "ASML:xams",
+        "Description": "ASML Holding NV",
+        "AssetType": "Stock",
+        "Uic": 1636,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1636
+    },
+    {
+        "Symbol": "ADYEN:xams",
+        "Description": "Adyen NV",
+        "AssetType": "Stock",
+        "Uic": 9894784,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 9894784
+    },
+    {
+        "Symbol": "PHARM:xams",
+        "Description": "Pharming Group NV ",
+        "AssetType": "Stock",
+        "Uic": 23113,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 23113
+    },
+    {
+        "Symbol": "BESI:xams",
+        "Description": "BE Semiconductor Industries",
+        "AssetType": "Stock",
+        "Uic": 43318,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 43318
+    },
+    {
+        "Symbol": "WKL:xams",
+        "Description": "Wolters Kluwer NV",
+        "AssetType": "Stock",
+        "Uic": 28735,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 28735
+    },
+    {
+        "Symbol": "ASMI:xams",
+        "Description": "ASM International",
+        "AssetType": "Stock",
+        "Uic": 13269,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 13269
+    },
+    {
+        "Symbol": "SHELL:xams",
+        "Description": "Shell PLC",
+        "AssetType": "Stock",
+        "Uic": 27113371,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 27173835
+    },
+    {
+        "Symbol": "ING:xams",
+        "Description": "ING Group NV",
+        "AssetType": "Stock",
+        "Uic": 3066,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 3066
+    },
+    {
+        "Symbol": "AGN:xams",
+        "Description": "Aegon Ltd",
+        "AssetType": "Stock",
+        "Uic": 111717,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 111717
+    },
+    {
+        "Symbol": "DSFIR:xams",
+        "Description": "DSM Firmenich Ltd",
+        "AssetType": "Stock",
+        "Uic": 34985565,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 34985565
+    },
+    {
+        "Symbol": "PRX:xams",
+        "Description": "Prosus NV",
+        "AssetType": "Stock",
+        "Uic": 14838059,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 14838059
+    },
+    {
+        "Symbol": "AMG:xams",
+        "Description": "AMG Critical Materials N.V.",
+        "AssetType": "Stock",
+        "Uic": 31815,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 31815
+    },
+    {
+        "Symbol": "ABN:xams",
+        "Description": "ABN AMRO Bank",
+        "AssetType": "Stock",
+        "Uic": 2906958,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 2906958
+    },
+    {
+        "Symbol": "FUR:xams",
+        "Description": "Fugro",
+        "AssetType": "Stock",
+        "Uic": 111725,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 111725
+    },
+    {
+        "Symbol": "MT:xams",
+        "Description": "ArcelorMittal SA",
+        "AssetType": "Stock",
+        "Uic": 22454,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 22454
+    },
+    {
+        "Symbol": "HEIA:xams",
+        "Description": "Heineken",
+        "AssetType": "Stock",
+        "Uic": 111720,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 111720
+    },
+    {
+        "Symbol": "LIGHT:xams",
+        "Description": "Signify",
+        "AssetType": "Stock",
+        "Uic": 4230166,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 4230166
+    },
+    {
+        "Symbol": "IMCD:xams",
+        "Description": "IMCD ",
+        "AssetType": "Stock",
+        "Uic": 983890,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 983890
+    },
+    {
+        "Symbol": "THEON:xams",
+        "Description": "Theon International PLC",
+        "AssetType": "Stock",
+        "Uic": 40332237,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 40332237
+    },
+    {
+        "Symbol": "REN:xams",
+        "Description": "RELX Plc",
+        "AssetType": "Stock",
+        "Uic": 10701975,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 3982
+    },
+    {
+        "Symbol": "BAMN:xams",
+        "Description": "BAM Groep (Koninklijke)",
+        "AssetType": "Stock",
+        "Uic": 13270,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 13270
+    },
+    {
+        "Symbol": "CRBN:xams",
+        "Description": "Corbion",
+        "AssetType": "Stock",
+        "Uic": 482654,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 482654
+    },
+    {
+        "Symbol": "KPN:xams",
+        "Description": "KPN (Koninklijke)",
+        "AssetType": "Stock",
+        "Uic": 1640,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1640
+    },
+    {
+        "Symbol": "UNA:xams",
+        "Description": "Unilever PLC",
+        "AssetType": "Stock",
+        "Uic": 14231761,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 896
+    },
+    {
+        "Symbol": "ARCAD:xams",
+        "Description": "Arcadis ",
+        "AssetType": "Stock",
+        "Uic": 31816,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 31816
+    },
+    {
+        "Symbol": "INPST:xams",
+        "Description": "InPost S.A.",
+        "AssetType": "Stock",
+        "Uic": 21087509,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21087509
+    },
+    {
+        "Symbol": "AD:xams",
+        "Description": "Ahold Delhaize NV",
+        "AssetType": "Stock",
+        "Uic": 4641426,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 4641426
+    },
+    {
+        "Symbol": "RAND:xams",
+        "Description": "Randstad Holding",
+        "AssetType": "Stock",
+        "Uic": 4982,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 4982
+    },
+    {
+        "Symbol": "HEIJM:xams",
+        "Description": "Heijmans N.V.(Koninklijke)",
+        "AssetType": "Stock",
+        "Uic": 37088,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 37088
+    },
+    {
+        "Symbol": "NN:xams",
+        "Description": "NN Group",
+        "AssetType": "Stock",
+        "Uic": 984685,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 984685
+    },
+    {
+        "Symbol": "OCI:xams",
+        "Description": "OCI",
+        "AssetType": "Stock",
+        "Uic": 445462,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 445462
+    },
+    {
+        "Symbol": "ALFEN:xams",
+        "Description": "Alfen",
+        "AssetType": "Stock",
+        "Uic": 9967484,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 9967484
+    },
+    {
+        "Symbol": "AVTX:xams",
+        "Description": "Avantium",
+        "AssetType": "Stock",
+        "Uic": 6519439,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 6519439
+    },
+    {
+        "Symbol": "PHIA:xams",
+        "Description": "Philips N.V.(Koninklijke)",
+        "AssetType": "Stock",
+        "Uic": 111721,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 111721
+    },
+    {
+        "Symbol": "TOM2:xams",
+        "Description": "TomTom",
+        "AssetType": "Stock",
+        "Uic": 17700,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 17700
+    },
+    {
+        "Symbol": "ASRNL:xams",
+        "Description": "ASR Nederland",
+        "AssetType": "Stock",
+        "Uic": 4289285,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 4289285
+    },
+    {
+        "Symbol": "APAM:xams",
+        "Description": "Aperam SA",
+        "AssetType": "Stock",
+        "Uic": 50401,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 50401
+    },
+    {
+        "Symbol": "TWEKA:xams",
+        "Description": "TKH Group",
+        "AssetType": "Stock",
+        "Uic": 32521,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 32521
+    },
+    {
+        "Symbol": "PNL:xams",
+        "Description": "PostNL",
+        "AssetType": "Stock",
+        "Uic": 52750,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 52750
+    },
+    {
+        "Symbol": "EXO:xams",
+        "Description": "Exor",
+        "AssetType": "Stock",
+        "Uic": 30770914,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 30770914
+    },
+    {
+        "Symbol": "AALB:xams",
+        "Description": "Aalberts",
+        "AssetType": "Stock",
+        "Uic": 14931,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 14931
+    },
+    {
+        "Symbol": "HAL:xams",
+        "Description": "HAL Trust",
+        "AssetType": "Stock",
+        "Uic": 42558,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 42558
+    },
+    {
+        "Symbol": "SBMO:xams",
+        "Description": "SBM Offshore",
+        "AssetType": "Stock",
+        "Uic": 15368,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 15368
+    },
+    {
+        "Symbol": "FLOW:xams",
+        "Description": "Flow Traders Limited",
+        "AssetType": "Stock",
+        "Uic": 2146175,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 2146175
+    },
+    {
+        "Symbol": "CVC:xams",
+        "Description": "CVC Capital Partners PLC",
+        "AssetType": "Stock",
+        "Uic": 41886690,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 41886690
+    },
+    {
+        "Symbol": "VOPA:xams",
+        "Description": "Vopak (Koninklijke)",
+        "AssetType": "Stock",
+        "Uic": 13287,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 13287
+    },
+    {
+        "Symbol": "SLIGR:xams",
+        "Description": "Sligro Food Group",
+        "AssetType": "Stock",
+        "Uic": 32155,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 32155
+    },
+    {
+        "Symbol": "UMG:xams",
+        "Description": "Universal Music Group N.V.",
+        "AssetType": "Stock",
+        "Uic": 25037837,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 25037837
+    },
+    {
+        "Symbol": "AKZA:xams",
+        "Description": "Akzo Nobel",
+        "AssetType": "Stock",
+        "Uic": 111719,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 111719
+    },
+    {
+        "Symbol": "VLK:xams",
+        "Description": "Van Lanschot Kempen",
+        "AssetType": "Stock",
+        "Uic": 7302048,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 7302048
+    },
+    {
+        "Symbol": "GLPG:xams",
+        "Description": "Galapagos",
+        "AssetType": "Stock",
+        "Uic": 766290,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 766290
+    },
+    {
+        "Symbol": "BRNL:xams",
+        "Description": "Brunel International",
+        "AssetType": "Stock",
+        "Uic": 32159,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 32159
+    },
+    {
+        "Symbol": "FFARM:xams",
+        "Description": "ForFarmers",
+        "AssetType": "Stock",
+        "Uic": 4234324,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 4234324
+    },
+    {
+        "Symbol": "BFIT:xams",
+        "Description": "Basic-Fit",
+        "AssetType": "Stock",
+        "Uic": 4289075,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 4289075
+    },
+    {
+        "Symbol": "WHA:xams",
+        "Description": "Wereldhave",
+        "AssetType": "Stock",
+        "Uic": 37006,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 37006
+    },
+    {
+        "Symbol": "FAST:xams",
+        "Description": "Fastned",
+        "AssetType": "Stock",
+        "Uic": 14166068,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 14166068
+    },
+    {
+        "Symbol": "EBUS:xams",
+        "Description": "Ebusco Holding N.V.",
+        "AssetType": "Stock",
+        "Uic": 25580670,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 25580670
+    },
+    {
+        "Symbol": "ECMPA:xams",
+        "Description": "Eurocommercial Properties",
+        "AssetType": "Stock",
+        "Uic": 32129,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 32129
+    },
+    {
+        "Symbol": "SIFG:xams",
+        "Description": "Sif Holding",
+        "AssetType": "Stock",
+        "Uic": 6164012,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 6164012
+    },
+    {
+        "Symbol": "NSI:xams",
+        "Description": "NSI",
+        "AssetType": "Stock",
+        "Uic": 1441606,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1441606
+    },
+    {
+        "Symbol": "ENVI:xams",
+        "Description": "Envipco Holding NV",
+        "AssetType": "Stock",
+        "Uic": 13562081,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 13562081
+    },
+    {
+        "Symbol": "ACOMO:xams",
+        "Description": "Acomo N.V.",
+        "AssetType": "Stock",
+        "Uic": 43316,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 43316
+    },
+    {
+        "Symbol": "HEIO:xams",
+        "Description": "Heineken Holding NV",
+        "AssetType": "Stock",
+        "Uic": 42406,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 42406
+    },
+    {
+        "Symbol": "KENDR:xams",
+        "Description": "Kendrion",
+        "AssetType": "Stock",
+        "Uic": 43323,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 43323
+    },
+    {
+        "Symbol": "NXFIL:xams",
+        "Description": "NX Filtration N.V.",
+        "AssetType": "Stock",
+        "Uic": 23424724,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 23424724
+    },
+    {
+        "Symbol": "NEDAP:xams",
+        "Description": "Nedap",
+        "AssetType": "Stock",
+        "Uic": 43324,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 43324
+    },
+    {
+        "Symbol": "CMCOM:xams",
+        "Description": "CM.com",
+        "AssetType": "Stock",
+        "Uic": 18195982,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18195982
+    },
+    {
+        "Symbol": "ALLFG:xams",
+        "Description": "Allfunds Group PLC",
+        "AssetType": "Stock",
+        "Uic": 22571086,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 22571086
+    },
+    {
+        "Symbol": "CTPNV:xams",
+        "Description": "CTP N.V.",
+        "AssetType": "Stock",
+        "Uic": 22290055,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 22290055
+    },
+    {
+        "Symbol": "AXS:xams",
+        "Description": "Accsys Technologies Plc",
+        "AssetType": "Stock",
+        "Uic": 440700,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1133209
+    },
+    {
+        "Symbol": "AZRN:xams",
+        "Description": "Azerion Group N.V",
+        "AssetType": "Stock",
+        "Uic": 27218618,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 27218618
+    },
+    {
+        "Symbol": "VVY:xams",
+        "Description": "Vivoryon Therapeutics N.V.",
+        "AssetType": "Stock",
+        "Uic": 14217171,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 14217171
+    },
+    {
+        "Symbol": "BNJ:xams",
+        "Description": "Banijay Group N.V.",
+        "AssetType": "Stock",
+        "Uic": 42433241,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 42433241
+    },
+    {
+        "Symbol": "JDEP:xams",
+        "Description": "JDE Peet's",
+        "AssetType": "Stock",
+        "Uic": 17824781,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 17824781
+    },
+    {
+        "Symbol": "NEDSE:xams",
+        "Description": "MKB Nedsense NV",
+        "AssetType": "Stock",
+        "Uic": 19588951,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 19588951
+    },
+    {
+        "Symbol": "FER:xams",
+        "Description": "Ferrovial SE",
+        "AssetType": "Stock",
+        "Uic": 36324354,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 36324354
+    },
+    {
+        "Symbol": "NSE:xams",
+        "Description": "New Sources Energy",
+        "AssetType": "Stock",
+        "Uic": 18400216,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400216
+    },
+    {
+        "Symbol": "AJAX:xams",
+        "Description": "AFC Ajax",
+        "AssetType": "Stock",
+        "Uic": 5980164,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 5980164
+    },
+    {
+        "Symbol": "CCE:xams",
+        "Description": "Coca-Cola Europacific Partners PLC",
+        "AssetType": "Stock",
+        "Uic": 4234157,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 45287323
+    },
+    {
+        "Symbol": "MTRK:xams",
+        "Description": "MotorK Limited",
+        "AssetType": "Stock",
+        "Uic": 25799249,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 25799249
+    },
+    {
+        "Symbol": "HOLCO:xams",
+        "Description": "Holland Colours",
+        "AssetType": "Stock",
+        "Uic": 1087685,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1087685
+    },
+    {
+        "Symbol": "LVIDE:xams",
+        "Description": "Lavide Holding NV",
+        "AssetType": "Stock",
+        "Uic": 420375,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 420375
+    },
+    {
+        "Symbol": "CTAC:xams",
+        "Description": "CTAC NV",
+        "AssetType": "Stock",
+        "Uic": 133679,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 133679
+    },
+    {
+        "Symbol": "EAS2P:xams",
+        "Description": "Ease2pay NV",
+        "AssetType": "Stock",
+        "Uic": 9140159,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 9140159
+    },
+    {
+        "Symbol": "ALX:xams",
+        "Description": "ALUMEXX NV",
+        "AssetType": "Stock",
+        "Uic": 8644130,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 8644130
+    },
+    {
+        "Symbol": "CABKA:xams",
+        "Description": "Cabka N.V.",
+        "AssetType": "Stock",
+        "Uic": 27704508,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 27704508
+    },
+    {
+        "Symbol": "NRP:xams",
+        "Description": "NEPI Rockcastle NV",
+        "AssetType": "Stock",
+        "Uic": 7391390,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 7391390
+    },
+    {
+        "Symbol": "PBH:xams",
+        "Description": "PB Holding NV",
+        "AssetType": "Stock",
+        "Uic": 28024683,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 28024683
+    },
+    {
+        "Symbol": "HYDRA:xams",
+        "Description": "Hydratec Industries NV",
+        "AssetType": "Stock",
+        "Uic": 435069,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 435069
+    },
+    {
+        "Symbol": "MORE:xams",
+        "Description": "Morefield Group N.V.",
+        "AssetType": "Stock",
+        "Uic": 21327014,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21327014
+    },
+    {
+        "Symbol": "VALUE:xams",
+        "Description": "Value8 - Reduce Only",
+        "AssetType": "Stock",
+        "Uic": 590756,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 590756
+    },
+    {
+        "Symbol": "PREVA:xams",
+        "Description": "VALUE8 cumulative financing preference shares C",
+        "AssetType": "Stock",
+        "Uic": 21385948,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21385948
+    },
+    {
+        "Symbol": "PORF:xams",
+        "Description": "Porceleyne Fles N.V.(Koninklijke)",
+        "AssetType": "Stock",
+        "Uic": 21321142,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21321142
+    },
+    {
+        "Symbol": "NAI:xams",
+        "Description": "New Amsterdam Invest N.V.",
+        "AssetType": "Stock",
+        "Uic": 23837772,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 23837772
+    },
+    {
+        "Symbol": "AMUND:xams",
+        "Description": "Almunda Professionals N.V.",
+        "AssetType": "Stock",
+        "Uic": 24573445,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 24573445
+    },
+    {
+        "Symbol": "REINA:xams",
+        "Description": "Reinet Investments SCA",
+        "AssetType": "Stock",
+        "Uic": 8383980,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 19092241
+    },
+    {
+        "Symbol": "AGIL:xams",
+        "Description": "Agility Capital Holding Inc.",
+        "AssetType": "Stock",
+        "Uic": 41808737,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 41808737
+    },
+    {
+        "Symbol": "ECT:xams",
+        "Description": "Eurocastle Investment Ltd",
+        "AssetType": "Stock",
+        "Uic": 30100,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 30100
+    },
+    {
+        "Symbol": "BEVER:xams",
+        "Description": "Bever Holding N.V.",
+        "AssetType": "Stock",
+        "Uic": 21327012,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21327012
+    },
+    {
+        "Symbol": "CABLE:xams",
+        "Description": "Global InterConnection Group Ltd",
+        "AssetType": "Stock",
+        "Uic": 36369357,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 36369357
+    }
+]
