@@ -13,13 +13,10 @@ def load_access_token():
         return data['access_token']
     
 
-def load_etf_symbols_and_uics():
-    symbols_uics = []
+def load_etfs():
     with open('etfs.json', 'r') as f:
         data = json.load(f)
-        for item in data:
-            symbols_uics.append((item['Symbol'], item['Uic']))
-    return symbols_uics
+    return data
 
 
 def get_payload(uic, asset_type, access_token):
@@ -56,14 +53,16 @@ def get_rules(last):
 
 def main():
     access_token = load_access_token()
-    symbols_uics = load_etf_symbols_and_uics()
-    for symbol_uic in symbols_uics:
-        payload = get_payload(symbol_uic[1], 'Etf', access_token)
+    etfs = load_etfs()
+    for etf in etfs:
+        payload = get_payload(etf['Uic'], 'Etf', access_token)
         df = convert_to_df(payload)
         df, last = update_df(df)
         uptrend, breakout, volume_ok = get_rules(last)
         if uptrend and breakout and volume_ok:
-            print(f'Found candidate ETF symbol: {symbol_uic[0]}')
+            symbol = etf['Symbol']
+            description = etf['Description']
+            print(f'\nFound candidate ETF symbol: {description} ({symbol})\n')
         else:
             print('.', end='', flush=True)
         time.sleep(0.5)
