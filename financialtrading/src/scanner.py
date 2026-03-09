@@ -19,6 +19,12 @@ def load_etfs():
     return data
 
 
+def load_stocks():
+    with open('stocks.json', 'r') as f:
+        data = json.load(f)
+    return data
+
+
 def get_payload(uic, asset_type, access_token):
     params = {'Uic': uic, 'AssetType': asset_type, 'Horizon': 1440, 'Count': 365}
     result = requests.get(CHARTS_URL, headers={'Authorization': f'Bearer {access_token}'}, params=params)
@@ -53,6 +59,7 @@ def get_rules(last):
 
 def main():
     access_token = load_access_token()
+    print('Scanning ETFs...')
     etfs = load_etfs()
     for etf in etfs:
         payload = get_payload(etf['Uic'], 'Etf', access_token)
@@ -66,6 +73,21 @@ def main():
         else:
             print('.', end='', flush=True)
         time.sleep(0.5)
+    print('Scanning stocks...')
+    stocks = load_stocks()
+    for stock in stocks:
+        payload = get_payload(etf['Uic'], 'Stock', access_token)
+        df = convert_to_df(payload)
+        df, last = update_df(df)
+        uptrend, breakout, volume_ok = get_rules(last)
+        if uptrend and breakout and volume_ok:
+            symbol = etf['Symbol']
+            description = etf['Description']
+            print(f'\nFound candidate stock symbol: {description} ({symbol})\n')
+        else:
+            print('.', end='', flush=True)
+        time.sleep(0.5)
+
 
 
 if __name__ == '__main__':
