@@ -1,5 +1,5 @@
 Candidate ETFs found:
- - L&G Cyber Security UCITS ETF (ISPY:xams) at 26.315 with slope 2.574081810104395%
- - SST SPDR MSCI World Energy (Acc) UCITS ETF (WNRG:xams) at 60.62 with slope 2.3294799748958845%
- - L&G Longer Dated All Commodities UCITS ETF (COMF:xams) at 26.551 with slope 2.8812657124912295%
- - BNPP Easy Energy & Metals Enhanced Roll UCITS ETF (GSCE:xams) at 20.2928 with slope 3.341893191508412%
+ - L&G Cyber Security UCITS ETF (ISPY:xams) at 26.315 with slope 2.57%
+ - SST SPDR MSCI World Energy (Acc) UCITS ETF (WNRG:xams) at 60.62 with slope 2.33%
+ - L&G Longer Dated All Commodities UCITS ETF (COMF:xams) at 26.551 with slope 2.88%
+ - BNPP Easy Energy & Metals Enhanced Roll UCITS ETF (GSCE:xams) at 20.2928 with slope 3.34%
