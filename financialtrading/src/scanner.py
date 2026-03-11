@@ -40,54 +40,82 @@ def convert_to_df(payload):
     return df
 
 
-def update_df(df):
-    df["SMA20"] = df["Close"].rolling(20).mean()
-    df["SMA50"] = df["Close"].rolling(50).mean()
-    df["SMA200"] = df["Close"].rolling(200).mean()
-    df["VolMA20"] = df["Volume"].rolling(20).mean()
-    df["Prev20High"] = df["High"].shift(1).rolling(20).max()
+def update_df(df, ema_period=20, slope_lookback=5):
+    df['EMA20'] = df['Close'].ewm(span=ema_period, adjust=False).mean()
+    df['EMA20_slope_pct'] = (
+        (df['EMA20'] - df['EMA20'].shift(slope_lookback))
+        / df['EMA20'].shift(slope_lookback)
+        * 100
+    )
     last = df.iloc[-1]
     return df, last
 
 
-def get_rules(last):
-    uptrend = (last["Close"] > last["SMA20"] > last["SMA50"] > last["SMA200"])
-    breakout = last["Close"] > last["Prev20High"]
-    volume_ok = last["Volume"] > 1.5 * last["VolMA20"]
-    return uptrend, breakout, volume_ok
+def get_rules(last, min_slope_pct=2.0, price_range=(10, 100)):
+    price_above_ema20 = last['Close'] > last['EMA20']
+    ema20_slope_ok = last['EMA20_slope_pct'] > min_slope_pct
+    within_price_range = price_range[0] < last['Close'] < price_range[1]
+    candidate = price_above_ema20 and ema20_slope_ok and within_price_range
+    return candidate
 
 
 def main():
     access_token = load_access_token()
     print('Scanning ETFs...')
+    candidate_etfs = []
     etfs = load_etfs()
     for etf in etfs:
         payload = get_payload(etf['Uic'], 'Etf', access_token)
         df = convert_to_df(payload)
         df, last = update_df(df)
-        uptrend, breakout, volume_ok = get_rules(last)
-        if uptrend and breakout and volume_ok:
+        candidate = get_rules(last)
+        if candidate:
+            # print(json.dumps(etf, indent=2))
             symbol = etf['Symbol']
             description = etf['Description']
-            print(f'\nFound candidate ETF symbol: {description} ({symbol})\n')
+            print('X', end='', flush=True)
+            candidate_etfs.append((description, symbol, last['Close']))
         else:
             print('.', end='', flush=True)
         time.sleep(0.5)
+    print()
     print('Scanning stocks...')
+    candidate_stocks = []
     stocks = load_stocks()
     for stock in stocks:
-        payload = get_payload(etf['Uic'], 'Stock', access_token)
+        payload = get_payload(stock['Uic'], 'Stock', access_token)
         df = convert_to_df(payload)
         df, last = update_df(df)
-        uptrend, breakout, volume_ok = get_rules(last)
-        if uptrend and breakout and volume_ok:
-            symbol = etf['Symbol']
-            description = etf['Description']
-            print(f'\nFound candidate stock symbol: {description} ({symbol})\n')
+        candidate = get_rules(last)
+        if candidate:
+            # print(json.dumps(stock, indent=2))
+            symbol = stock['Symbol']
+            description = stock['Description']
+            print('X', end='', flush=True)
+            candidate_stocks.append((description, symbol, last['Close']))
         else:
             print('.', end='', flush=True)
         time.sleep(0.5)
 
+    section = 'Candidate ETFs found:'
+    print()
+    print(section)
+    with open('candidate_etfs.txt', 'w') as f:
+        f.write(section + '\n')
+        for item in candidate_etfs:
+            line = f' - {item[0]} ({item[1]}) at {item[2]}'
+            f.write(line + '\n')
+            print(line)
+
+    section = 'Candidate stocks found:'
+    print()
+    print(section)
+    with open('candidate_stocks.txt', 'w') as f:
+        f.write(section + '\n')
+        for item in candidate_stocks:
+            line = f' - {item[0]} ({item[1]}) at {item[2]}'
+            f.write(line + '\n')
+            print(line)
 
 
 if __name__ == '__main__':

@@ -1,5 +1,6 @@
 import base64
 import json
+import argparse
 import requests
 import time
 from flask import Flask, redirect, request
@@ -7,6 +8,10 @@ from urllib.parse import urlencode
 from pathlib import Path
 
 app = Flask(__name__)
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--background', type=bool, default=False)
+args = parser.parse_args()
 
 
 def get_app_key_and_secret():
@@ -86,13 +91,19 @@ def oauth_callback():
     if not r.ok:
         return f"Token exchange failed: {r.status_code}\n{r.text}", 500
     tok = r.json()
-    while True:
+    if args.background:
+        while True:
+            print(f'Writing token info: {tok}')
+            with open('tokeninfo.json', 'w') as f:
+                json.dump(tok, f, indent=4)
+            time.sleep(TIMEOUT)
+            print(f'Refreshing token...')
+            tok = refresh_token(APP_KEY, APP_SECRET, tok['refresh_token'])
+    else:
         print(f'Writing token info: {tok}')
         with open('tokeninfo.json', 'w') as f:
             json.dump(tok, f, indent=4)
-        time.sleep(TIMEOUT)
-        print(f'Refreshing token...')
-        tok = refresh_token(APP_KEY, APP_SECRET, tok['refresh_token'])
+    return "OK"
 
 
 def main():

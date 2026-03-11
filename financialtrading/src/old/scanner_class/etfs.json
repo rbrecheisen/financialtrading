@@ -1,0 +1,1738 @@
+[
+    {
+        "Symbol": "IWDA:xams",
+        "Description": "iShares Core MSCI World UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 50629,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 50629
+    },
+    {
+        "Symbol": "SWRD:xams",
+        "Description": "SST SPDR MSCI World (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400165,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400165
+    },
+    {
+        "Symbol": "EMIM:xams",
+        "Description": "iShares Core MSCI EM IMI UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 1018052,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1018052
+    },
+    {
+        "Symbol": "VUSA:xams",
+        "Description": "Vanguard S&P 500 Dist UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 441170,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 441170
+    },
+    {
+        "Symbol": "IMAE:xams",
+        "Description": "iShares Core MSCI Europe EUR (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 49826,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 49826
+    },
+    {
+        "Symbol": "TDIV:xams",
+        "Description": "VanEck Morningstar Dvlp Mkts Dvd Leaders UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21374532,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21374532
+    },
+    {
+        "Symbol": "VWRL:xams",
+        "Description": "Vanguard FTSE All-World UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 440951,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 440951
+    },
+    {
+        "Symbol": "CSPX:xams",
+        "Description": "iShares Core S&P 500 (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 1058257,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1058257
+    },
+    {
+        "Symbol": "WTCH:xams",
+        "Description": "SST SPDR MSCI World Technology (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 10679775,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 10679775
+    },
+    {
+        "Symbol": "500X:xams",
+        "Description": "SST SPDR S&P 500 Leaders (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 22043032,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 22043032
+    },
+    {
+        "Symbol": "TDT:xams",
+        "Description": "VanEck AEX UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 42615,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 42615
+    },
+    {
+        "Symbol": "TSWE:xams",
+        "Description": "VanEck World Equal Weight Screened UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 1212785,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1212785
+    },
+    {
+        "Symbol": "CNDX:xams",
+        "Description": "iShares NASDAQ 100 Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 10679757,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 10679757
+    },
+    {
+        "Symbol": "UIMT:xams",
+        "Description": "UBS MSCI Pacific Socially Responsible UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 6218676,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 6218676
+    },
+    {
+        "Symbol": "IEMA:xams",
+        "Description": "iShares MSCI Emerging Markets UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 49825,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 49825
+    },
+    {
+        "Symbol": "V3AL:xams",
+        "Description": "Vanguard ESG Global All Cap UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 22433141,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 22433141
+    },
+    {
+        "Symbol": "IUSA:xams",
+        "Description": "iShares Core S&P 500 (Dist) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 5101458,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 5101458
+    },
+    {
+        "Symbol": "CSX5:xams",
+        "Description": "iShares Core EURO STOXX 50 UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 1133238,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1133238
+    },
+    {
+        "Symbol": "VHYL:xams",
+        "Description": "Vanguard FTSE All-World High Dvd Yield UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 441164,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 441164
+    },
+    {
+        "Symbol": "EUEA:xams",
+        "Description": "iShares Core EURO STOXX 50 EUR (Dist) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 36452,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 36452
+    },
+    {
+        "Symbol": "IMEU:xams",
+        "Description": "iShares Core MSCI Europe UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 43141,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 43141
+    },
+    {
+        "Symbol": "TRET:xams",
+        "Description": "VanEck Global Real Estate UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 130778,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 130778
+    },
+    {
+        "Symbol": "IAEX:xams",
+        "Description": "iShares AEX UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 49882,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 49882
+    },
+    {
+        "Symbol": "SPYL:xams",
+        "Description": "SST SPDR S&P 500 (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 38875828,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 38875828
+    },
+    {
+        "Symbol": "VFEM:xams",
+        "Description": "Vanguard FTSE Emerging Markets UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 441169,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 441169
+    },
+    {
+        "Symbol": "VEUR:xams",
+        "Description": "Vanguard FTSE Developed Europe UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 441168,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 441168
+    },
+    {
+        "Symbol": "AUCO:xams",
+        "Description": "L&G Gold Mining UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 50751,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 50751
+    },
+    {
+        "Symbol": "IPRV:xams",
+        "Description": "iShares Listed Private Equity UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 46199,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 46199
+    },
+    {
+        "Symbol": "IJPA:xams",
+        "Description": "iShares Core MSCI Japan IMI UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 10679773,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 10679773
+    },
+    {
+        "Symbol": "VEVE:xams",
+        "Description": "Vanguard FTSE Developed World UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400201,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400201
+    },
+    {
+        "Symbol": "NDIA:xams",
+        "Description": "iShares MSCI India UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 40054715,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 40054715
+    },
+    {
+        "Symbol": "IDVY:xams",
+        "Description": "iShares Euro Dividend UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 36455,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 36455
+    },
+    {
+        "Symbol": "600X:xams",
+        "Description": "SST SPDR STOXX Europe 600 SRI (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21381474,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21381474
+    },
+    {
+        "Symbol": "ISPY:xams",
+        "Description": "L&G Cyber Security UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400166,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400166
+    },
+    {
+        "Symbol": "IWRD:xams",
+        "Description": "iShares MSCI World USD (Dist) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 39700,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 39700
+    },
+    {
+        "Symbol": "TOF:xams",
+        "Description": "Vaneck Multiasset Growth UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 42619,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 42619
+    },
+    {
+        "Symbol": "IKRA:xams",
+        "Description": "iShares MSCI Korea UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 36457,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 36457
+    },
+    {
+        "Symbol": "WHEA:xams",
+        "Description": "SST SPDR MSCI World Health Care (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 9034969,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 9034969
+    },
+    {
+        "Symbol": "LTAM:xams",
+        "Description": "iShares MSCI EM Latin America UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 1289730,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1289730
+    },
+    {
+        "Symbol": "IUES:xams",
+        "Description": "iShares S&P 500 EUR Hedged (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 1605973,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1605973
+    },
+    {
+        "Symbol": "INFR:xams",
+        "Description": "iShares Global Infrastructure UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400205,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400205
+    },
+    {
+        "Symbol": "NTM:xams",
+        "Description": "Vaneck Multiasset Balanced UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 42618,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 42618
+    },
+    {
+        "Symbol": "IEAC:xams",
+        "Description": "iShares Core EUR Corp Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 46219,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 46219
+    },
+    {
+        "Symbol": "TEET:xams",
+        "Description": "VanEck European Equal Weight Screened UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 1669137,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1669137
+    },
+    {
+        "Symbol": "EXA1:xams",
+        "Description": "iShares EURO STOXX Banks 30-15 UCITS ETF ",
+        "AssetType": "Etf",
+        "Uic": 38955970,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 38955970
+    },
+    {
+        "Symbol": "ERNE:xams",
+        "Description": "iShares EUR Ultrashort Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21374553,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21374553
+    },
+    {
+        "Symbol": "IESE:xams",
+        "Description": "iShares MSCI Europe SRI UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 812230,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 812230
+    },
+    {
+        "Symbol": "ISFA:xams",
+        "Description": "iShares Core FTSE 100 UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 4420515,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 4420515
+    },
+    {
+        "Symbol": "IPRP:xams",
+        "Description": "iShares European Property Yield UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 38069,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 38069
+    },
+    {
+        "Symbol": "IWDE:xams",
+        "Description": "iShares MSCI World EUR Hedged UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 107525,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 107525
+    },
+    {
+        "Symbol": "IJPN:xams",
+        "Description": "iShares MSCI Japan USD (Dist) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 36454,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 36454
+    },
+    {
+        "Symbol": "TCBT:xams",
+        "Description": "VanEck iBoxx EUR Corporates UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 52381,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 52381
+    },
+    {
+        "Symbol": "WFIN:xams",
+        "Description": "SST SPDR MSCI World Financials (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 10630201,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 10630201
+    },
+    {
+        "Symbol": "IEMM:xams",
+        "Description": "iShares MSCI EM UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 31712,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 31712
+    },
+    {
+        "Symbol": "SSAC:xams",
+        "Description": "iShares MSCI ACWI USD Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 28593401,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 28593401
+    },
+    {
+        "Symbol": "VJPN:xams",
+        "Description": "Vanguard FTSE Japan UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 417125,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 417125
+    },
+    {
+        "Symbol": "UIMM:xams",
+        "Description": "UBS MSCI World Socially Responsible UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 17449717,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 17449717
+    },
+    {
+        "Symbol": "BATT:xams",
+        "Description": "L&G Battery Value-Chain UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 19899343,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 19899343
+    },
+    {
+        "Symbol": "VAPX:xams",
+        "Description": "Vanguard FTSE Developed APAC ex Japan UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 441165,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 441165
+    },
+    {
+        "Symbol": "TGBT:xams",
+        "Description": "VanEck iBoxx EUR Sovereign 1-10 UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 52382,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 52382
+    },
+    {
+        "Symbol": "IBZL:xams",
+        "Description": "iShares MSCI Brazil UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 36458,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 36458
+    },
+    {
+        "Symbol": "AGGH:xams",
+        "Description": "iShares Core Global Aggregate Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 35773006,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 35773006
+    },
+    {
+        "Symbol": "DJSC:xams",
+        "Description": "iShares EURO STOXX Small UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 50838,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 50838
+    },
+    {
+        "Symbol": "ROBO:xams",
+        "Description": "L&G Global Robo And Auto UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400194,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400194
+    },
+    {
+        "Symbol": "V3AA:xams",
+        "Description": "Vanguard ESG Global All Cap Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 22906470,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 22906470
+    },
+    {
+        "Symbol": "FXC:xams",
+        "Description": "iShares China Large Cap USD (Dist) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 32981,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 32981
+    },
+    {
+        "Symbol": "IJPE:xams",
+        "Description": "iShares MSCI Japan EUR Hedged UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 427458,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 427458
+    },
+    {
+        "Symbol": "IBGX:xams",
+        "Description": "Ishares Euro Government Bond 3-5yr UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 52667,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 52667
+    },
+    {
+        "Symbol": "IBGS:xams",
+        "Description": "iShares Euro Government Bond 1-3yr UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 205619,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 205619
+    },
+    {
+        "Symbol": "SPXS:xams",
+        "Description": "Invesco S&P 500 UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 17003894,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 17003894
+    },
+    {
+        "Symbol": "WNRG:xams",
+        "Description": "SST SPDR MSCI World Energy (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 11649794,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 11649794
+    },
+    {
+        "Symbol": "CPXJ:xams",
+        "Description": "iShares Core MSCI Pacific ex Japan UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 17602632,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 17602632
+    },
+    {
+        "Symbol": "V80A:xams",
+        "Description": "Vanguard LifeStrategy 80% Equity UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 22042965,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 22042965
+    },
+    {
+        "Symbol": "IBCI:xams",
+        "Description": "iShares Euro Inflation Linked Govt Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 36456,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 36456
+    },
+    {
+        "Symbol": "CBE7:xams",
+        "Description": "iShares Euro Government Bond 3-7y Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 1170538,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1170538
+    },
+    {
+        "Symbol": "IWDP:xams",
+        "Description": "iShares Developed Markets Property Yield UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 48725,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 48725
+    },
+    {
+        "Symbol": "DTM:xams",
+        "Description": "Vaneck Multiasset Conservative UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 42617,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 42617
+    },
+    {
+        "Symbol": "IDJG:xams",
+        "Description": "iShares Euro Total Market Growth Large UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 39425,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 39425
+    },
+    {
+        "Symbol": "UIMR:xams",
+        "Description": "UBS MSCI EMU Socially Responsible UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400221,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400221
+    },
+    {
+        "Symbol": "CEMU:xams",
+        "Description": "iShares Core MSCI EMU UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400224,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400224
+    },
+    {
+        "Symbol": "VECP:xams",
+        "Description": "Vanguard EUR Corporate Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 4466322,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 4466322
+    },
+    {
+        "Symbol": "IGSG:xams",
+        "Description": "iShares DJ Global Leaders Screened UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 8826163,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 8826163
+    },
+    {
+        "Symbol": "VERX:xams",
+        "Description": "Vanguard FTSE Developed Europe ex UK UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 2269060,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 2269060
+    },
+    {
+        "Symbol": "SUSW:xams",
+        "Description": "iShares MSCI World SRI UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 26074021,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 26074021
+    },
+    {
+        "Symbol": "EHYA:xams",
+        "Description": "iShares EUR High Yield Corp Bond ESG SRI UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21691423,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21691423
+    },
+    {
+        "Symbol": "IBTS:xams",
+        "Description": "iShares USD Treasury Bond 1-3Yr UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400197,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400197
+    },
+    {
+        "Symbol": "IEGA:xams",
+        "Description": "iShares Core EUR Govt Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 1788533,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1788533
+    },
+    {
+        "Symbol": "IAEA:xams",
+        "Description": "iShares AEX UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21391607,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21391607
+    },
+    {
+        "Symbol": "CMEX:xams",
+        "Description": "iShares MSCI Mexico Capped UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 4647700,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 4647700
+    },
+    {
+        "Symbol": "IEAG:xams",
+        "Description": "iShares EUR Aggregate Bond ESG SRI UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 46201,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 46201
+    },
+    {
+        "Symbol": "ITKY:xams",
+        "Description": "iShares MSCI Turkey UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 36460,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 36460
+    },
+    {
+        "Symbol": "UEF5:xams",
+        "Description": "UBS MSCI EM Socially Responsible UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400226,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400226
+    },
+    {
+        "Symbol": "IBGM:xams",
+        "Description": "iShares Euro Government Bond 7-10yr UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 205646,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 205646
+    },
+    {
+        "Symbol": "SKYE:xams",
+        "Description": "First Trust Cloud Computing UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18714610,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18714610
+    },
+    {
+        "Symbol": "H2OA:xams",
+        "Description": "iShares Global Water UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 25703600,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 25703600
+    },
+    {
+        "Symbol": "VEMT:xams",
+        "Description": "Vanguard USD EM Govt Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 10910904,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 10910904
+    },
+    {
+        "Symbol": "WHCA:xams",
+        "Description": "iShares MSCI World Health Care Sec ESG UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 36115384,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 36115384
+    },
+    {
+        "Symbol": "ECOM:xams",
+        "Description": "L&G Ecommerce Logistics UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 19899323,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 19899323
+    },
+    {
+        "Symbol": "ITWN:xams",
+        "Description": "iShares MSCI Taiwan UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400187,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400187
+    },
+    {
+        "Symbol": "V60A:xams",
+        "Description": "Vanguard LifeStrategy 60% Equity UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 23216916,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 23216916
+    },
+    {
+        "Symbol": "SXLI:xams",
+        "Description": "SST SPDR S&P U.S. Ind Select Sec (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 14943282,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 14943282
+    },
+    {
+        "Symbol": "CBEU:xams",
+        "Description": "First Trust Nasdaq Cyber Security UCTIS ETF",
+        "AssetType": "Etf",
+        "Uic": 42373910,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 42373910
+    },
+    {
+        "Symbol": "DJMC:xams",
+        "Description": "iShares EURO STOXX Mid UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 32152,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 32152
+    },
+    {
+        "Symbol": "IFFF:xams",
+        "Description": "iShares MSCI AC Far East ex-Japan UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 31709,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 31709
+    },
+    {
+        "Symbol": "SXLE:xams",
+        "Description": "SST SPDR S&P U.S. Energy Sel Sector Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21374568,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21374568
+    },
+    {
+        "Symbol": "TAT:xams",
+        "Description": "VanEck iBoxx EUR Sov Capped AAA-AA 1-5 UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 370529,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 370529
+    },
+    {
+        "Symbol": "BRIC:xams",
+        "Description": "iShares BIC 50 UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 32980,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 32980
+    },
+    {
+        "Symbol": "IEGZ:xams",
+        "Description": "iShares EUR Govt Bond 10-15yr UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 401656,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 401656
+    },
+    {
+        "Symbol": "IBGL:xams",
+        "Description": "iShares Euro Government Bond 15-30yr UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 1654969,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1654969
+    },
+    {
+        "Symbol": "VUTY:xams",
+        "Description": "Vanguard USD Treasury Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 4466324,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 4466324
+    },
+    {
+        "Symbol": "IDVA:xams",
+        "Description": "iShares EURO STOXX Select Dividend 30 UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 26784454,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 26784454
+    },
+    {
+        "Symbol": "WCOS:xams",
+        "Description": "SST SPDR MSCI World Cons Staples (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 11649793,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 11649793
+    },
+    {
+        "Symbol": "ISAE:xams",
+        "Description": "iShares Agribusiness UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 27516795,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 27516795
+    },
+    {
+        "Symbol": "WUTI:xams",
+        "Description": "SST SPDR MSCI World Utilities (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400174,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400174
+    },
+    {
+        "Symbol": "WTEL:xams",
+        "Description": "SST SPDR MSCI World Comm Services (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400186,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400186
+    },
+    {
+        "Symbol": "V80D:xams",
+        "Description": "Vanguard LifeStrategy 80% Equity UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 22281472,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 22281472
+    },
+    {
+        "Symbol": "CBU7:xams",
+        "Description": "iShares USD Treasury Bond 3-7yr UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 1518773,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1518773
+    },
+    {
+        "Symbol": "INAA:xams",
+        "Description": "iShares MSCI North America UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 19079074,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 19079074
+    },
+    {
+        "Symbol": "SXLK:xams",
+        "Description": "SST SPDR S&P U.S. Technology Sel Sec Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21377262,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21377262
+    },
+    {
+        "Symbol": "VETY:xams",
+        "Description": "Vanguard EUR Eurozone Government Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 5304884,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 5304884
+    },
+    {
+        "Symbol": "IUSP:xams",
+        "Description": "iShares US Property Yield UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 37671,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 37671
+    },
+    {
+        "Symbol": "SXLU:xams",
+        "Description": "SST SPDR S&P U.S. Utilities Sel Sec Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21376769,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21376769
+    },
+    {
+        "Symbol": "WVAL:xams",
+        "Description": "SST SPDR MSCI World Value (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21392624,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21392624
+    },
+    {
+        "Symbol": "VUCP:xams",
+        "Description": "Vanguard USD Corporate Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 4466323,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 4466323
+    },
+    {
+        "Symbol": "SBIO:xams",
+        "Description": "Invesco NASDAQ Biotech UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 15580621,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 15580621
+    },
+    {
+        "Symbol": "LVO:xams",
+        "Description": "Amundi S&P 500 VIX Futures Enhanced Roll UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400192,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400192
+    },
+    {
+        "Symbol": "CSCA:xams",
+        "Description": "iShares MSCI Canada UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400195,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400195
+    },
+    {
+        "Symbol": "CNYA:xams",
+        "Description": "iShares MSCI China A Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 42319182,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 42319182
+    },
+    {
+        "Symbol": "IRCP:xams",
+        "Description": "iShares Corp Bnd Intrst Rate Hdg ESG SRI UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21330143,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21330143
+    },
+    {
+        "Symbol": "SJPE:xams",
+        "Description": "iShares Core MSCI Japan IMI EUR Hedged UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 26074182,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 26074182
+    },
+    {
+        "Symbol": "SXLF:xams",
+        "Description": "SST SPDR S&P U.S. Financials Sel Sec Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 11754121,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 11754121
+    },
+    {
+        "Symbol": "EMPA:xams",
+        "Description": "iShares MSCI EMU Paris-Aligned Climate UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 40262867,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 40262867
+    },
+    {
+        "Symbol": "FEUZ:xams",
+        "Description": "First Trust Eurozone Alphadex UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 8156176,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 8156176
+    },
+    {
+        "Symbol": "IBCX:xams",
+        "Description": "iShares EUR Corp Bond Large Cap UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 5101459,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 5101459
+    },
+    {
+        "Symbol": "FDNE:xams",
+        "Description": "First Trust Dow Jones Internet UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18841810,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18841810
+    },
+    {
+        "Symbol": "IEGY:xams",
+        "Description": "iShares EUR Govt Bond 5-7yr UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 205645,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 205645
+    },
+    {
+        "Symbol": "IEGE:xams",
+        "Description": "iShares EUR Govt Bond 0-1yr UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 205617,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 205617
+    },
+    {
+        "Symbol": "IASP:xams",
+        "Description": "iShares Asia Property Yield UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 439387,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 439387
+    },
+    {
+        "Symbol": "IEUX:xams",
+        "Description": "iShares MSCI Europe ex-UK UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 205647,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 205647
+    },
+    {
+        "Symbol": "VNRT:xams",
+        "Description": "Vanguard FTSE North America UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 2269059,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 2269059
+    },
+    {
+        "Symbol": "V3GE:xams",
+        "Description": "Vanguard ESG Global Corporate Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 27389106,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 27389106
+    },
+    {
+        "Symbol": "HKDE:xams",
+        "Description": "UBS MSCI Hong Kong UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21391606,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21391606
+    },
+    {
+        "Symbol": "WIND:xams",
+        "Description": "SST SPDR MSCI World Industrials (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 11649795,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 11649795
+    },
+    {
+        "Symbol": "UIMP:xams",
+        "Description": "UBS MSCI USA Socially Responsible UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21370881,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21370881
+    },
+    {
+        "Symbol": "CSJP:xams",
+        "Description": "iShares MSCI Japan UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21364432,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21364432
+    },
+    {
+        "Symbol": "BTMA:xams",
+        "Description": "iShares USD Treasury Bond 7-10yr UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 454225,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 454225
+    },
+    {
+        "Symbol": "EHYD:xams",
+        "Description": "iShares EUR High Yield Corp Bond ESG SRI UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 25520966,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 25520966
+    },
+    {
+        "Symbol": "EMSA:xams",
+        "Description": "iShares JP Morgan Advanced $ EM Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 14223245,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 14223245
+    },
+    {
+        "Symbol": "RTWO:xams",
+        "Description": "L&G Russell 2000 US Small Cap Quality UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400189,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400189
+    },
+    {
+        "Symbol": "WMAT:xams",
+        "Description": "SST SPDR MSCI World Materials (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400203,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400203
+    },
+    {
+        "Symbol": "SUSM:xams",
+        "Description": "iShares MSCI EM SRI UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 26597100,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 26597100
+    },
+    {
+        "Symbol": "GOVA:xams",
+        "Description": "State Street SPDR BBG Euro Gov Bd Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 35315952,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 35315952
+    },
+    {
+        "Symbol": "SXLV:xams",
+        "Description": "SST SPDR S&P U.S Health Care Sel Sec Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 15293982,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 15293982
+    },
+    {
+        "Symbol": "FLPE:xams",
+        "Description": "Northern Trust Listed Private Equity UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 42065473,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 42065473
+    },
+    {
+        "Symbol": "V60D:xams",
+        "Description": "Vanguard LifeStrategy 60% Equity UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 24632980,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 24632980
+    },
+    {
+        "Symbol": "500E:xams",
+        "Description": "Amundi S&P 500 UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 31115940,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 31115940
+    },
+    {
+        "Symbol": "LQDA:xams",
+        "Description": "iShares USD Corp Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 195710,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 195710
+    },
+    {
+        "Symbol": "TPSA:xams",
+        "Description": "iShares $ TIPS UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 10679774,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 10679774
+    },
+    {
+        "Symbol": "CYBR:xams",
+        "Description": "Rize Cybersecurity and Data Privacy UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 23758871,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 23758871
+    },
+    {
+        "Symbol": "UEFD:xams",
+        "Description": "UBS MSCI EMU Small Cap UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400180,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400180
+    },
+    {
+        "Symbol": "WCOD:xams",
+        "Description": "SST SPDR MSCI World Cons Discret (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 11649790,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 11649790
+    },
+    {
+        "Symbol": "U1FA:xams",
+        "Description": "UBS MSCI Canada Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 25839377,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 25839377
+    },
+    {
+        "Symbol": "SUAU:xams",
+        "Description": "iShares MSCI USA SRI Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 30915548,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 30915548
+    },
+    {
+        "Symbol": "COMF:xams",
+        "Description": "L&G Longer Dated All Commodities UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21364808,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21364808
+    },
+    {
+        "Symbol": "UE28:xams",
+        "Description": "UBS MSCI Australia Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 25520964,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 25520964
+    },
+    {
+        "Symbol": "EUPB:xams",
+        "Description": "iShares MSCI Europe Par-Aligned Climate UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 25895241,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 25895241
+    },
+    {
+        "Symbol": "CSUS:xams",
+        "Description": "iShares MSCI USA UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 1072304,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 1072304
+    },
+    {
+        "Symbol": "UIMI:xams",
+        "Description": "UBS Core MSCI EM UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 10221329,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 10221329
+    },
+    {
+        "Symbol": "CBSE:xams",
+        "Description": "UBS BBG MSCI Euro Area Liquid Corp Sust UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400222,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400222
+    },
+    {
+        "Symbol": "UBUT:xams",
+        "Description": "UBS Factor MSCI USA Quality Screened UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18841811,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18841811
+    },
+    {
+        "Symbol": "IGLE:xams",
+        "Description": "iShares Global Govt Bond (EUR hedged) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18195154,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18195154
+    },
+    {
+        "Symbol": "IFRB:xams",
+        "Description": "iShares France Government Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 27431929,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 27431929
+    },
+    {
+        "Symbol": "EEDV:xams",
+        "Description": "SST SPDR S&P Euro Dvd Aristo Scrnd Dist UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 23765892,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 23765892
+    },
+    {
+        "Symbol": "JPSR:xams",
+        "Description": "UBS MSCI Japan Socially Responsible UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21364811,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21364811
+    },
+    {
+        "Symbol": "LGJP:xams",
+        "Description": "L&G Japan Equity UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 41818363,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 41818363
+    },
+    {
+        "Symbol": "IUHE:xams",
+        "Description": "iShares S&P 500 Health Care Sec UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 37441973,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 37441973
+    },
+    {
+        "Symbol": "V3PL:xams",
+        "Description": "Vanguard ESG Dvlpd Asia Pacific All Cap UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 40664502,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 40664502
+    },
+    {
+        "Symbol": "GSCE:xams",
+        "Description": "BNPP Easy Energy & Metals Enhanced Roll UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21374531,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21374531
+    },
+    {
+        "Symbol": "V20A:xams",
+        "Description": "Vanguard LifeStrategy 20% Equity UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 25839403,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 25839403
+    },
+    {
+        "Symbol": "LGAP:xams",
+        "Description": "L&G Asia Pacific ex Japan Equity UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 26156187,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 26156187
+    },
+    {
+        "Symbol": "SXLY:xams",
+        "Description": "SST SPDR S&P US Cons Discret Sel Sec Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 13562342,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 13562342
+    },
+    {
+        "Symbol": "LQDH:xams",
+        "Description": "iShares USD Corp Bond Interest Rate Hdg UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400202,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400202
+    },
+    {
+        "Symbol": "UEFI:xams",
+        "Description": "UBS Core BBG US Treasury 1-10 UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21377271,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21377271
+    },
+    {
+        "Symbol": "SXLB:xams",
+        "Description": "SST SPDR S&P U.S. Materials Sel Sec Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21374561,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21374561
+    },
+    {
+        "Symbol": "SXLC:xams",
+        "Description": "SST SPDR S&P U.S. Comm Serv Sel Sec UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 22042823,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 22042823
+    },
+    {
+        "Symbol": "QCLN:xams",
+        "Description": "FirstTrust Nasdaq Clean Edge Green Enrgy UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 22290054,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 22290054
+    },
+    {
+        "Symbol": "SDHY:xams",
+        "Description": "iShares USD Short Duration HY Corp Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18658030,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18658030
+    },
+    {
+        "Symbol": "FOOD:xams",
+        "Description": "Rize Sustainable Future of Food UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 26074020,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 26074020
+    },
+    {
+        "Symbol": "UIM9:xams",
+        "Description": "UBS MSCI Canada UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 14002354,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 14002354
+    },
+    {
+        "Symbol": "ICOV:xams",
+        "Description": "iShares EUR Covered Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21330142,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21330142
+    },
+    {
+        "Symbol": "CYBE:xams",
+        "Description": "iShares China CNY Bond UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 23350394,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 23350394
+    },
+    {
+        "Symbol": "ISED:xams",
+        "Description": "iShares MSCI Europe SRI UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 26074184,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 26074184
+    },
+    {
+        "Symbol": "UBUX:xams",
+        "Description": "UBS Factor MSCI USA Quality Screened Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21374560,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21374560
+    },
+    {
+        "Symbol": "SMUA:xams",
+        "Description": "iShares MSCI EMU SRI UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21384987,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21384987
+    },
+    {
+        "Symbol": "SXLP:xams",
+        "Description": "SST SPDR S&P U.S. Cons Stap Sel Sec Acc UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21376816,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21376816
+    },
+    {
+        "Symbol": "UBUV:xams",
+        "Description": "UBS Factor MSCI USA Low Volatlty EUR Hdg UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 28832823,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 28832823
+    },
+    {
+        "Symbol": "V20D:xams",
+        "Description": "Vanguard LifeStrategy 20% Equity UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 24583517,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 24583517
+    },
+    {
+        "Symbol": "IMBE:xams",
+        "Description": "iShares US Mortgage Backed Securities UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 24583634,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 24583634
+    },
+    {
+        "Symbol": "V40D:xams",
+        "Description": "Vanguard LifeStrategy 40% Equity UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 24827135,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 24827135
+    },
+    {
+        "Symbol": "UIM2:xams",
+        "Description": "UBS Factor MSCI EMU Quality Screened UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 19969748,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 19969748
+    },
+    {
+        "Symbol": "UKSR:xams",
+        "Description": "UBS MSCI United Kingdom IMI SR UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21374549,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21374549
+    },
+    {
+        "Symbol": "UE33:xams",
+        "Description": "UBS MSCI USA Socially Responsible UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400223,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400223
+    },
+    {
+        "Symbol": "EMUEUA:xams",
+        "Description": "UBS Core MSCI EMU UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21377274,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21377274
+    },
+    {
+        "Symbol": "USCE:xams",
+        "Description": "SST SPDR BBG U.S. Corp Scored (Acc) UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 35315968,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 35315968
+    },
+    {
+        "Symbol": "UIMZ:xams",
+        "Description": "UBS Factor MSCI EMU Prime Value Scrnd UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21374559,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21374559
+    },
+    {
+        "Symbol": "UBUW:xams",
+        "Description": "UBS Factor MSCI USA PV Screened UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 28832741,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 28832741
+    },
+    {
+        "Symbol": "FXEU:xams",
+        "Description": "First Trust FactorFX UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21327037,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21327037
+    },
+    {
+        "Symbol": "FCSG:xams",
+        "Description": "First Trst Glbl Capital Strngth ESG Leaders UC ETF",
+        "AssetType": "Etf",
+        "Uic": 24583765,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 24583765
+    },
+    {
+        "Symbol": "IX5A:xams",
+        "Description": "iShares EUR Corp Bond exFincls 1-5yr ESG UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 17218899,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 17218899
+    },
+    {
+        "Symbol": "UEF6:xams",
+        "Description": "UBS BBG Euro Area Liquid Corp 1-5 UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21376760,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21376760
+    },
+    {
+        "Symbol": "UEF8:xams",
+        "Description": "UBS BBG US Liquid Corp 1-5 UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 9457275,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 9457275
+    },
+    {
+        "Symbol": "UEF0:xams",
+        "Description": "UBS Core BBG US Liquid Corp UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 9457272,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 9457272
+    },
+    {
+        "Symbol": "UE27:xams",
+        "Description": "UBS BBG MSCI US Liquid Corp Sustainable UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 18400218,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 18400218
+    },
+    {
+        "Symbol": "DIA:xams",
+        "Description": "St Street SPDR Dow Jones Industrial Average ETF",
+        "AssetType": "Etf",
+        "Uic": 12187882,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 35411
+    },
+    {
+        "Symbol": "FSOV:xams",
+        "Description": "First Trust Low Duration Global Gvnt Bnd UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 26074017,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 26074017
+    },
+    {
+        "Symbol": "UEF9:xams",
+        "Description": "UBS Core BBG US Liquid Corp UCITS ETF",
+        "AssetType": "Etf",
+        "Uic": 21382411,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21382411
+    },
+    {
+        "Symbol": "FXGD:xams",
+        "Description": "FinEx Physically Backed Funds ICAV- FinEx Gold ETF",
+        "AssetType": "Etf",
+        "Uic": 21327017,
+        "ExchangeId": "AMS",
+        "PrimaryListing": 21327017
+    }
+]

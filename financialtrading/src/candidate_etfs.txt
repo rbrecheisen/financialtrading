@@ -1,0 +1,5 @@
+Candidate ETFs found:
+ - L&G Cyber Security UCITS ETF (ISPY:xams) at 26.21
+ - SST SPDR MSCI World Energy (Acc) UCITS ETF (WNRG:xams) at 59.33
+ - L&G Longer Dated All Commodities UCITS ETF (COMF:xams) at 26.263
+ - BNPP Easy Energy & Metals Enhanced Roll UCITS ETF (GSCE:xams) at 19.9648
