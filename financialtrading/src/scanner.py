@@ -60,7 +60,9 @@ def get_rules(last, min_slope_pct=2.0, price_range=(10, 100)):
 
 
 def main():
+
     access_token = load_access_token()
+
     print('Scanning ETFs...')
     candidate_etfs = []
     etfs = load_etfs()
@@ -79,6 +81,7 @@ def main():
             print('.', end='', flush=True)
         time.sleep(0.5)
     print()
+    
     print('Scanning stocks...')
     candidate_stocks = []
     stocks = load_stocks()
