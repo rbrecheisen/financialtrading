@@ -75,7 +75,7 @@ def main():
             # print(json.dumps(etf, indent=2))
             symbol = etf['Symbol']
             description = etf['Description']
-            candidate_etfs.append((description, symbol, last['Close']))
+            candidate_etfs.append((description, symbol, last['Close'], last['EMA20_slope_pct']))
             print('X', end='', flush=True)
         else:
             print('.', end='', flush=True)
@@ -93,7 +93,7 @@ def main():
         if candidate:
             symbol = stock['Symbol']
             description = stock['Description']
-            candidate_stocks.append((description, symbol, last['Close']))
+            candidate_stocks.append((description, symbol, last['Close'], last['EMA20_slope_pct']))
             print('X', end='', flush=True)
         else:
             print('.', end='', flush=True)
@@ -105,7 +105,7 @@ def main():
     with open('candidate_etfs.txt', 'w') as f:
         f.write(section + '\n')
         for item in candidate_etfs:
-            line = f' - {item[0]} ({item[1]}) at {item[2]}'
+            line = f' - {item[0]} ({item[1]}) at {item[2]} with slope {item[3]}%'
             f.write(line + '\n')
             print(line)
 
@@ -115,7 +115,7 @@ def main():
     with open('candidate_stocks.txt', 'w') as f:
         f.write(section + '\n')
         for item in candidate_stocks:
-            line = f' - {item[0]} ({item[1]}) at {item[2]}'
+            line = f' - {item[0]} ({item[1]}) at {item[2]} with slope {item[3]}%'
             f.write(line + '\n')
             print(line)
 

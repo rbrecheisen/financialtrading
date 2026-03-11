@@ -1,6 +1,6 @@
 Candidate stocks found:
- - Shell PLC (SHELL:xams) at 37.44
- - RELX Plc (REN:xams) at 30.34
- - Vopak (Koninklijke) (VOPA:xams) at 47.58
- - Van Lanschot Kempen (VLK:xams) at 57.4
- - Porceleyne Fles N.V.(Koninklijke) (PORF:xams) at 14.5
+ - Shell PLC (SHELL:xams) at 37.56 with slope 3.159924300855651%
+ - RELX Plc (REN:xams) at 30.14 with slope 3.1782646352831456%
+ - Vopak (Koninklijke) (VOPA:xams) at 48.12 with slope 2.4375683451718433%
+ - Van Lanschot Kempen (VLK:xams) at 57.8 with slope 3.065079632041334%
+ - Porceleyne Fles N.V.(Koninklijke) (PORF:xams) at 14.5 with slope 5.110550282245649%
