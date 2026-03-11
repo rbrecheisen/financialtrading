@@ -75,13 +75,13 @@ def main():
             # print(json.dumps(etf, indent=2))
             symbol = etf['Symbol']
             description = etf['Description']
-            print('X', end='', flush=True)
             candidate_etfs.append((description, symbol, last['Close']))
+            print('X', end='', flush=True)
         else:
             print('.', end='', flush=True)
         time.sleep(0.5)
     print()
-    
+
     print('Scanning stocks...')
     candidate_stocks = []
     stocks = load_stocks()
@@ -91,11 +91,10 @@ def main():
         df, last = update_df(df)
         candidate = get_rules(last)
         if candidate:
-            # print(json.dumps(stock, indent=2))
             symbol = stock['Symbol']
             description = stock['Description']
-            print('X', end='', flush=True)
             candidate_stocks.append((description, symbol, last['Close']))
+            print('X', end='', flush=True)
         else:
             print('.', end='', flush=True)
         time.sleep(0.5)
