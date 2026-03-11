@@ -105,7 +105,7 @@ def main():
     with open('candidate_etfs.txt', 'w') as f:
         f.write(section + '\n')
         for item in candidate_etfs:
-            line = f' - {item[0]} ({item[1]}) at {item[2]} with slope {item[3]}%'
+            line = f' - {item[0]} ({item[1]}) at {item[2]} with slope {item[3]:.2f}%'
             f.write(line + '\n')
             print(line)
 
@@ -115,7 +115,7 @@ def main():
     with open('candidate_stocks.txt', 'w') as f:
         f.write(section + '\n')
         for item in candidate_stocks:
-            line = f' - {item[0]} ({item[1]}) at {item[2]} with slope {item[3]}%'
+            line = f' - {item[0]} ({item[1]}) at {item[2]} with slope {item[3]:.2f}%'
             f.write(line + '\n')
             print(line)
 
