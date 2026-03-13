@@ -1,11 +1,12 @@
 import os
-import json
+import numpy as np
 from pathlib import Path
 from PySide6.QtCore import Qt, QByteArray, QThread
-from PySide6.QtWidgets import QMainWindow, QWidget, QStyle, QLabel, QVBoxLayout, QPushButton
+from PySide6.QtWidgets import QMainWindow, QWidget, QStyle, QLabel, QVBoxLayout, QHBoxLayout, QPushButton, QSpinBox, QTableWidget, QTableWidgetItem
 from PySide6.QtGui import QGuiApplication, QAction
 from scanner.settings import Settings
 from scanner.flaskserverworker import FlaskServerWorker
+from scanner.scanner import Scanner
 
 DATA_DIR = str(Path(__file__).resolve().parent)
 DATA_TOKENINFO_FILE = os.path.join(DATA_DIR, 'data/tokeninfo.json')
@@ -16,15 +17,22 @@ class MainWindow(QMainWindow):
         super(MainWindow, self).__init__()
         self._settings = Settings(bundle_identifier, app_name)
         self._app_icon = app_icon
-        self._toggle_server_button = QPushButton('Start server')
+        self._toggle_server_button = QPushButton('Start Oauth 2.0 server to obtain new access token')
         self._toggle_server_button.clicked.connect(self.handle_toggle_server_button)
-        self._start_scan_button = QPushButton('Start scanning daily charts')
+        self._ema_period_spinbox = QSpinBox(self, minimum=1, maximum=100, value=20)
+        self._slope_lookback_spinbox = QSpinBox(self, minimum=0, maximum=100, value=5)
+        self._min_slope_pct_spinbox = QSpinBox(self, minimum=0, maximum=100, value=2)
+        self._price_min_spinbox = QSpinBox(self, minimum=0, maximum=200, value=10)
+        self._price_max_spinbox = QSpinBox(self, minimum=0, maximum=200, value=100)
+        self._start_scan_button = QPushButton('Start scanning daily charts for stocks and ETFs')
+        self._start_scan_button.setStyleSheet('background-color: blue; color: white; font-weight: bold;')
         self._start_scan_button.clicked.connect(self.handle_start_scan_button)
+        self._etfs_table = QTableWidget()
+        self._stocks_table = QTableWidget()
         self._server_thread = None
         self._server_worker = None
         self._server_running = False
-        self._etfs = self.load_etfs()
-        self._stocks = self.load_stocks()
+        self._scanner = None
         self.init()
 
     # INITIALIZATION
@@ -38,7 +46,22 @@ class MainWindow(QMainWindow):
         layout = QVBoxLayout()
         layout.setAlignment(Qt.AlignmentFlag.AlignTop)
         layout.addWidget(self._toggle_server_button)
+        layout.addWidget(QLabel('EMA period:'))
+        layout.addWidget(self._ema_period_spinbox)
+        layout.addWidget(QLabel('Minimum slope percentage:'))
+        layout.addWidget(self._min_slope_pct_spinbox)
+        layout.addWidget(QLabel('Slope lookback nr. days:'))
+        layout.addWidget(self._slope_lookback_spinbox)
+        layout.addWidget(QLabel('Price range:'))
+        price_range_layout = QHBoxLayout()
+        price_range_layout.addWidget(self._price_min_spinbox)
+        price_range_layout.addWidget(self._price_max_spinbox)
+        layout.addLayout(price_range_layout)
         layout.addWidget(self._start_scan_button)
+        layout.addWidget(QLabel('Candidate ETFs:'))
+        layout.addWidget(self._etfs_table)
+        layout.addWidget(QLabel('Candidate stocks:'))
+        layout.addWidget(self._stocks_table)
         widget = QWidget()
         widget.setLayout(layout)
         self.setCentralWidget(widget)
@@ -71,7 +94,14 @@ class MainWindow(QMainWindow):
             self.start_server()
 
     def handle_start_scan_button(self):
-        pass
+        self._scanner = Scanner(
+            self._ema_period_spinbox.value(),
+            self._slope_lookback_spinbox.value(),
+            self._min_slope_pct_spinbox.value(),
+            (self._price_min_spinbox.value(), self._price_max_spinbox.value()),
+        )
+        rows_etfs, rows_stocks = self._scanner.run()
+        self.show_etfs_and_stocks(rows_etfs, rows_stocks)
 
     def handle_server_started(self):
         self._server_running = True
@@ -109,6 +139,36 @@ class MainWindow(QMainWindow):
         if self._server_worker is not None:
             self._server_worker.stop_server()
         self._server_running = False
+
+    def show_etfs_and_stocks(self, rows_etfs, rows_stocks):
+        self.show_table(rows_etfs, self._etfs_table)
+        self.show_table(rows_stocks, self._stocks_table)
+
+    def show_table(self, rows, table):
+        headers = list(rows[0].keys())
+        table.setRowCount(len(rows))
+        table.setColumnCount(len(headers))
+        table.setHorizontalHeaderLabels(headers)
+        for r, row in enumerate(rows):
+            for c, key in enumerate(headers):
+                value = row.get(key, "")
+                text = self.format_value(value)
+                item = QTableWidgetItem(text)
+                # Optional: align numbers nicely
+                if isinstance(value, (int, float, np.integer, np.floating)):
+                    item.setTextAlignment(Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter)
+                table.setItem(r, c, item)
+        table.resizeColumnsToContents()
+
+    @staticmethod
+    def format_value(value):
+        if isinstance(value, (np.bool_, bool)):
+            return "True" if bool(value) else "False"
+        if isinstance(value, (np.integer, int)):
+            return str(int(value))
+        if isinstance(value, (np.floating, float)):
+            return f"{float(value):.3f}"
+        return str(value)
         
     def load_geometry_and_state(self):
         geometry = self._settings.get('mainwindow/geometry')
@@ -117,7 +177,7 @@ class MainWindow(QMainWindow):
             if isinstance(state, QByteArray):
                 self.restoreState(state)
             return
-        self.resize(500, 700)
+        self.resize(500, 1000)
         self.center_window()        
 
     def save_geometry_and_state(self):
