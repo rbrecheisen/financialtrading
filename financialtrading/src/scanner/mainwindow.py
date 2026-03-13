@@ -8,8 +8,6 @@ from scanner.settings import Settings
 from scanner.flaskserverworker import FlaskServerWorker
 
 DATA_DIR = str(Path(__file__).resolve().parent)
-DATA_ETFS_FILE = os.path.join(DATA_DIR, 'data/etfs.json')
-DATA_STOCKS_FILE = os.path.join(DATA_DIR, 'data/stocks.json')
 DATA_TOKENINFO_FILE = os.path.join(DATA_DIR, 'data/tokeninfo.json')
 
 
@@ -20,6 +18,8 @@ class MainWindow(QMainWindow):
         self._app_icon = app_icon
         self._toggle_server_button = QPushButton('Start server')
         self._toggle_server_button.clicked.connect(self.handle_toggle_server_button)
+        self._start_scan_button = QPushButton('Start scanning daily charts')
+        self._start_scan_button.clicked.connect(self.handle_start_scan_button)
         self._server_thread = None
         self._server_worker = None
         self._server_running = False
@@ -38,6 +38,7 @@ class MainWindow(QMainWindow):
         layout = QVBoxLayout()
         layout.setAlignment(Qt.AlignmentFlag.AlignTop)
         layout.addWidget(self._toggle_server_button)
+        layout.addWidget(self._start_scan_button)
         widget = QWidget()
         widget.setLayout(layout)
         self.setCentralWidget(widget)
@@ -69,6 +70,9 @@ class MainWindow(QMainWindow):
         else:
             self.start_server()
 
+    def handle_start_scan_button(self):
+        pass
+
     def handle_server_started(self):
         self._server_running = True
         self._toggle_server_button.setStyleSheet('background-color: green; color: white; font-weight: bold;')
@@ -87,21 +91,6 @@ class MainWindow(QMainWindow):
 
     # HELPERS
 
-    def load_etfs(self):
-        with open(DATA_ETFS_FILE, 'r') as f:
-            data = json.load(f)
-        return data
-
-    def load_stocks(self):
-        with open(DATA_STOCKS_FILE, 'r') as f:
-            data = json.load(f)
-        return data
-    
-    def load_access_token():
-        with open(DATA_TOKENINFO_FILE, 'r') as f:
-            data = json.load(f)
-            return data['access_token']
-
     def start_server(self):
         self._server_thread = QThread()
         self._server_worker = FlaskServerWorker(DATA_TOKENINFO_FILE)
@@ -119,6 +108,7 @@ class MainWindow(QMainWindow):
     def stop_server(self):
         if self._server_worker is not None:
             self._server_worker.stop_server()
+        self._server_running = False
         
     def load_geometry_and_state(self):
         geometry = self._settings.get('mainwindow/geometry')
